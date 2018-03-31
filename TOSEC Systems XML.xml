@@ -1,0 +1,1745 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="systems.xsl"?>
+<companies version="20180331152022">
+  <company id="1">
+    <name>3DO</name>
+    <systems>
+      <system id="4">
+        <name>3DO 3DO Interactive Multiplayer</name>
+      </system>
+    </systems>
+  </company>
+  <company id="2">
+    <name>Acorn</name>
+    <systems>
+      <system id="22">
+        <name>Acorn Archimedes</name>
+      </system>
+      <system id="322">
+        <name>Acorn Atom</name>
+      </system>
+      <system id="23">
+        <name>Acorn BBC</name>
+      </system>
+      <system id="45">
+        <name>Acorn Electron</name>
+      </system>
+      <system id="248">
+        <name>Acorn System 1</name>
+      </system>
+    </systems>
+  </company>
+  <company id="107">
+    <name>ACT</name>
+    <systems>
+      <system id="241">
+        <name>ACT Apricot</name>
+      </system>
+      <system id="242">
+        <name>ACT Apricot F1</name>
+      </system>
+      <system id="324">
+        <name>ACT Apricot PC-Xi</name>
+      </system>
+      <system id="243">
+        <name>ACT Apricot Portable</name>
+      </system>
+    </systems>
+  </company>
+  <company id="136">
+    <name>Advanced Computer Design</name>
+    <systems>
+      <system id="320">
+        <name>Advanced Computer Design PDQ-3</name>
+      </system>
+    </systems>
+  </company>
+  <company id="140">
+    <name>AEG</name>
+    <systems>
+      <system id="325">
+        <name>AEG Olympia Olytext 20</name>
+      </system>
+    </systems>
+  </company>
+  <company id="116">
+    <name>Alspa Computers</name>
+    <systems>
+      <system id="282">
+        <name>Alspa Computers ALSPA</name>
+      </system>
+    </systems>
+  </company>
+  <company id="91">
+    <name>Altos Computer Systems</name>
+    <systems>
+      <system id="209">
+        <name>Altos Computer Systems ACS-186, 586, 686 &amp; 986</name>
+      </system>
+      <system id="210">
+        <name>Altos Computer Systems ACS-8000</name>
+      </system>
+      <system id="283">
+        <name>Altos Computer Systems ACS-8600</name>
+      </system>
+      <system id="211">
+        <name>Altos Computer Systems Series 5</name>
+      </system>
+    </systems>
+  </company>
+  <company id="110">
+    <name>American Laser Games</name>
+    <systems>
+      <system id="256">
+        <name>American Laser Games CD-ROM System</name>
+      </system>
+    </systems>
+  </company>
+  <company id="135">
+    <name>AMPRO Computers</name>
+    <systems>
+      <system id="321">
+        <name>AMPRO Computers LittleBoard Z80</name>
+      </system>
+    </systems>
+  </company>
+  <company id="3">
+    <name>Amstrad</name>
+    <systems>
+      <system id="39">
+        <name>Amstrad CPC</name>
+      </system>
+      <system id="214">
+        <name>Amstrad GX4000</name>
+      </system>
+      <system id="225">
+        <name>Amstrad PCW</name>
+      </system>
+    </systems>
+  </company>
+  <company id="85">
+    <name>APF</name>
+    <systems>
+      <system id="196">
+        <name>APF Imagination Machine</name>
+      </system>
+      <system id="326">
+        <name>APF M-1000</name>
+      </system>
+      <system id="247">
+        <name>APF PeCos One</name>
+      </system>
+    </systems>
+  </company>
+  <company id="4">
+    <name>Apple</name>
+    <systems>
+      <system id="60">
+        <name>Apple 1</name>
+      </system>
+      <system id="62">
+        <name>Apple II</name>
+      </system>
+      <system id="63">
+        <name>Apple IIGS</name>
+      </system>
+      <system id="208">
+        <name>Apple III</name>
+      </system>
+      <system id="249">
+        <name>Apple iPad</name>
+      </system>
+      <system id="75">
+        <name>Apple Lisa</name>
+      </system>
+      <system id="79">
+        <name>Apple Macintosh</name>
+      </system>
+    </systems>
+  </company>
+  <company id="45">
+    <name>Applied Technology</name>
+    <systems>
+      <system id="88">
+        <name>Applied Technology MicroBee</name>
+      </system>
+    </systems>
+  </company>
+  <company id="141">
+    <name>Aquaplus</name>
+    <systems>
+      <system id="327">
+        <name>Aquaplus P-ECE</name>
+      </system>
+    </systems>
+  </company>
+  <company id="137">
+    <name>AT&amp;T</name>
+    <systems>
+      <system id="323">
+        <name>AT&amp;T 3B20</name>
+      </system>
+    </systems>
+  </company>
+  <company id="5">
+    <name>Atari</name>
+    <systems>
+      <system id="1">
+        <name>Atari 2600 &amp; VCS</name>
+      </system>
+      <system id="5">
+        <name>Atari 5200</name>
+      </system>
+      <system id="9">
+        <name>Atari 7800</name>
+      </system>
+      <system id="10">
+        <name>Atari 8bit</name>
+      </system>
+      <system id="65">
+        <name>Atari Jaguar</name>
+      </system>
+      <system id="66">
+        <name>Atari Jaguar CD</name>
+      </system>
+      <system id="77">
+        <name>Atari Lynx</name>
+      </system>
+      <system id="145">
+        <name>Atari ST</name>
+      </system>
+    </systems>
+  </company>
+  <company id="6">
+    <name>Bally</name>
+    <systems>
+      <system id="138">
+        <name>Bally Professional Arcade &amp; Astrocade</name>
+      </system>
+    </systems>
+  </company>
+  <company id="7">
+    <name>Bandai</name>
+    <systems>
+      <system id="257">
+        <name>Bandai Pippin @World &amp; Pippin Atmark</name>
+      </system>
+      <system id="130">
+        <name>Bandai Pippin Atmark</name>
+      </system>
+      <system id="131">
+        <name>Bandai Playdia</name>
+      </system>
+      <system id="176">
+        <name>Bandai WonderSwan</name>
+      </system>
+      <system id="177">
+        <name>Bandai WonderSwan Color</name>
+      </system>
+    </systems>
+  </company>
+  <company id="8">
+    <name>Bondwell</name>
+    <systems>
+      <system id="266">
+        <name>Bondwell 12</name>
+      </system>
+      <system id="328">
+        <name>Bondwell 14</name>
+      </system>
+      <system id="94">
+        <name>Bondwell 2</name>
+      </system>
+    </systems>
+  </company>
+  <company id="117">
+    <name>Burroughs</name>
+    <systems>
+      <system id="285">
+        <name>Burroughs B1000 Series</name>
+      </system>
+    </systems>
+  </company>
+  <company id="10">
+    <name>Camputers</name>
+    <systems>
+      <system id="76">
+        <name>Camputers Lynx</name>
+      </system>
+    </systems>
+  </company>
+  <company id="115">
+    <name>Canon</name>
+    <systems>
+      <system id="279">
+        <name>Canon Cat</name>
+      </system>
+    </systems>
+  </company>
+  <company id="98">
+    <name>Capcom</name>
+    <systems>
+      <system id="226">
+        <name>Capcom CP System III</name>
+      </system>
+    </systems>
+  </company>
+  <company id="11">
+    <name>Casio</name>
+    <systems>
+      <system id="32">
+        <name>Casio CFX-9850</name>
+      </system>
+      <system id="275">
+        <name>Casio Loopy</name>
+      </system>
+      <system id="112">
+        <name>Casio PB-1000</name>
+      </system>
+      <system id="267">
+        <name>Casio PV-2000</name>
+      </system>
+    </systems>
+  </company>
+  <company id="12">
+    <name>Coleco</name>
+    <systems>
+      <system id="35">
+        <name>Coleco ColecoVision</name>
+      </system>
+      <system id="36">
+        <name>Coleco ColecoVision ADAM</name>
+      </system>
+    </systems>
+  </company>
+  <company id="13">
+    <name>Commodore</name>
+    <systems>
+      <system id="16">
+        <name>Commodore Amiga</name>
+      </system>
+      <system id="17">
+        <name>Commodore Amiga CD32</name>
+      </system>
+      <system id="18">
+        <name>Commodore Amiga CDTV</name>
+      </system>
+      <system id="329">
+        <name>Commodore BX256-80HP</name>
+      </system>
+      <system id="27">
+        <name>Commodore C128</name>
+      </system>
+      <system id="28">
+        <name>Commodore C16, C116 &amp; Plus-4</name>
+      </system>
+      <system id="29">
+        <name>Commodore C64</name>
+      </system>
+      <system id="262">
+        <name>Commodore C64DTV</name>
+      </system>
+      <system id="30">
+        <name>Commodore C65</name>
+      </system>
+      <system id="170">
+        <name>Commodore MAX Machine &amp; VIC10</name>
+      </system>
+      <system id="129">
+        <name>Commodore PET</name>
+      </system>
+      <system id="171">
+        <name>Commodore VIC20</name>
+      </system>
+    </systems>
+  </company>
+  <company id="118">
+    <name>Compugraphic</name>
+    <systems>
+      <system id="286">
+        <name>Compugraphic MCS-10</name>
+      </system>
+    </systems>
+  </company>
+  <company id="119">
+    <name>Control Data Corporation</name>
+    <systems>
+      <system id="287">
+        <name>Control Data Corporation CDC110</name>
+      </system>
+    </systems>
+  </company>
+  <company id="120">
+    <name>Convergent Technologies</name>
+    <systems>
+      <system id="288">
+        <name>Convergent Technologies AWS NGEN Workstation</name>
+      </system>
+      <system id="289">
+        <name>Convergent Technologies MiniFrame</name>
+      </system>
+    </systems>
+  </company>
+  <company id="14">
+    <name>Creatronic</name>
+    <systems>
+      <system id="86">
+        <name>Creatronic Mega Duck &amp; Cougar Boy</name>
+      </system>
+    </systems>
+  </company>
+  <company id="15">
+    <name>Cybiko</name>
+    <systems>
+      <system id="40">
+        <name>Cybiko Cybiko</name>
+      </system>
+      <system id="203">
+        <name>Cybiko Xtreme</name>
+      </system>
+    </systems>
+  </company>
+  <company id="16">
+    <name>DEC</name>
+    <systems>
+      <system id="127">
+        <name>DEC PDP-1</name>
+      </system>
+      <system id="219">
+        <name>DEC PDP-10</name>
+      </system>
+      <system id="220">
+        <name>DEC PDP-11</name>
+      </system>
+      <system id="221">
+        <name>DEC PDP-12</name>
+      </system>
+      <system id="268">
+        <name>DEC PDP-15</name>
+      </system>
+      <system id="217">
+        <name>DEC PDP-7</name>
+      </system>
+      <system id="128">
+        <name>DEC PDP-8</name>
+      </system>
+      <system id="218">
+        <name>DEC PDP-9</name>
+      </system>
+    </systems>
+  </company>
+  <company id="99">
+    <name>Dick Smith</name>
+    <systems>
+      <system id="227">
+        <name>Dick Smith System 80</name>
+      </system>
+    </systems>
+  </company>
+  <company id="121">
+    <name>Didact</name>
+    <systems>
+      <system id="290">
+        <name>Didact Esselte 100</name>
+      </system>
+    </systems>
+  </company>
+  <company id="17">
+    <name>Dragon Data</name>
+    <systems>
+      <system id="2">
+        <name>Dragon 32 &amp; 64</name>
+      </system>
+      <system id="204">
+        <name>Dragon Data Dragon</name>
+      </system>
+      <system id="330">
+        <name>Dragon Data Dragon Alpha</name>
+      </system>
+      <system id="331">
+        <name>Dragon Data Dragon Beta</name>
+      </system>
+    </systems>
+  </company>
+  <company id="18">
+    <name>EACA</name>
+    <systems>
+      <system id="37">
+        <name>EACA EG2000 Colour Genie</name>
+      </system>
+    </systems>
+  </company>
+  <company id="19">
+    <name>Elektronika</name>
+    <systems>
+      <system id="24">
+        <name>Elektronika BK-0010-0011M</name>
+      </system>
+      <system id="25">
+        <name>Elektronika BK-0011-411</name>
+      </system>
+    </systems>
+  </company>
+  <company id="83">
+    <name>Elektronska Industrija Nis</name>
+    <systems>
+      <system id="187">
+        <name>Elektronska Industrija Nis PECOM 32 &amp; 64</name>
+      </system>
+    </systems>
+  </company>
+  <company id="20">
+    <name>Emerson</name>
+    <systems>
+      <system id="21">
+        <name>Emerson Arcadia 2001</name>
+      </system>
+    </systems>
+  </company>
+  <company id="21">
+    <name>Enterprise</name>
+    <systems>
+      <system id="7">
+        <name>Enterprise 64 &amp; 128</name>
+      </system>
+    </systems>
+  </company>
+  <company id="22">
+    <name>Entex</name>
+    <systems>
+      <system id="13">
+        <name>Entex Adventure Vision</name>
+      </system>
+    </systems>
+  </company>
+  <company id="94">
+    <name>Epoch</name>
+    <systems>
+      <system id="222">
+        <name>Epoch Super Cassette Vision</name>
+      </system>
+    </systems>
+  </company>
+  <company id="106">
+    <name>Epson</name>
+    <systems>
+      <system id="240">
+        <name>Epson PX-8, HC-88 &amp; Geneva</name>
+      </system>
+    </systems>
+  </company>
+  <company id="23">
+    <name>ETL</name>
+    <systems>
+      <system id="81">
+        <name>ETL Mark II</name>
+      </system>
+      <system id="82">
+        <name>ETL Mark IV</name>
+      </system>
+      <system id="83">
+        <name>ETL Mark IV A</name>
+      </system>
+    </systems>
+  </company>
+  <company id="90">
+    <name>Exelvision</name>
+    <systems>
+      <system id="206">
+        <name>Exelvision Exeltel</name>
+      </system>
+      <system id="205">
+        <name>Exelvision EXL100</name>
+      </system>
+    </systems>
+  </company>
+  <company id="24">
+    <name>Exidy</name>
+    <systems>
+      <system id="144">
+        <name>Exidy Sorcerer</name>
+      </system>
+    </systems>
+  </company>
+  <company id="25">
+    <name>Fairchild</name>
+    <systems>
+      <system id="33">
+        <name>Fairchild VES &amp; Channel F</name>
+      </system>
+    </systems>
+  </company>
+  <company id="122">
+    <name>Ferguson</name>
+    <systems>
+      <system id="291">
+        <name>Ferguson Big Board II</name>
+      </system>
+    </systems>
+  </company>
+  <company id="109">
+    <name>Franklin</name>
+    <systems>
+      <system id="250">
+        <name>Franklin ACE 100</name>
+      </system>
+      <system id="252">
+        <name>Franklin ACE 1000</name>
+      </system>
+      <system id="253">
+        <name>Franklin ACE 2000</name>
+      </system>
+      <system id="251">
+        <name>Franklin ACE 500</name>
+      </system>
+    </systems>
+  </company>
+  <company id="26">
+    <name>Front Fareast</name>
+    <systems>
+      <system id="80">
+        <name>Front Fareast Magic Drive</name>
+      </system>
+    </systems>
+  </company>
+  <company id="27">
+    <name>Fuji Photo Film</name>
+    <systems>
+      <system id="26">
+        <name>Fuji Photo Film FUJIC</name>
+      </system>
+    </systems>
+  </company>
+  <company id="28">
+    <name>Fujitsu</name>
+    <systems>
+      <system id="49">
+        <name>Fujitsu FM Towns</name>
+      </system>
+      <system id="228">
+        <name>Fujitsu FM-7</name>
+      </system>
+      <system id="332">
+        <name>Fujitsu FM77-AV</name>
+      </system>
+    </systems>
+  </company>
+  <company id="92">
+    <name>Funtech</name>
+    <systems>
+      <system id="212">
+        <name>Funtech Super A'can</name>
+      </system>
+    </systems>
+  </company>
+  <company id="29">
+    <name>Galaksija</name>
+    <systems>
+      <system id="51">
+        <name>Galaksija Galaksija</name>
+      </system>
+      <system id="52">
+        <name>Galaksija Galaksija Plus</name>
+      </system>
+    </systems>
+  </company>
+  <company id="111">
+    <name>Game Park</name>
+    <systems>
+      <system id="269">
+        <name>Game Park GP32</name>
+      </system>
+    </systems>
+  </company>
+  <company id="30">
+    <name>GCE</name>
+    <systems>
+      <system id="168">
+        <name>GCE Vectrex</name>
+      </system>
+    </systems>
+  </company>
+  <company id="123">
+    <name>Gould</name>
+    <systems>
+      <system id="292">
+        <name>Gould K105-D Logic Analyzer</name>
+      </system>
+      <system id="293">
+        <name>Gould K115 Logic Analyzer</name>
+      </system>
+      <system id="294">
+        <name>Gould K450 Logic Analyzer</name>
+      </system>
+    </systems>
+  </company>
+  <company id="31">
+    <name>Hewlett-Packard</name>
+    <systems>
+      <system id="295">
+        <name>Hewlett-Packard 16500A</name>
+      </system>
+      <system id="296">
+        <name>Hewlett-Packard 4951C &amp; 4952A</name>
+      </system>
+      <system id="58">
+        <name>Hewlett-Packard HP48</name>
+      </system>
+      <system id="59">
+        <name>Hewlett-Packard HP49</name>
+      </system>
+    </systems>
+  </company>
+  <company id="32">
+    <name>HomeLab</name>
+    <systems>
+      <system id="200">
+        <name>HomeLab BraiLab</name>
+      </system>
+      <system id="199">
+        <name>HomeLab HomeLab</name>
+      </system>
+    </systems>
+  </company>
+  <company id="33">
+    <name>IBM</name>
+    <systems>
+      <system id="297">
+        <name>IBM 1620</name>
+      </system>
+      <system id="114">
+        <name>IBM PC Compatibles</name>
+      </system>
+      <system id="126">
+        <name>IBM PCjr</name>
+      </system>
+      <system id="298">
+        <name>IBM System-360</name>
+      </system>
+    </systems>
+  </company>
+  <company id="100">
+    <name>Incredible Technologies</name>
+    <systems>
+      <system id="229">
+        <name>Incredible Technologies Eagle</name>
+      </system>
+    </systems>
+  </company>
+  <company id="34">
+    <name>Infocom</name>
+    <systems>
+      <system id="182">
+        <name>Infocom Z-Machine</name>
+      </system>
+    </systems>
+  </company>
+  <company id="35">
+    <name>Interact</name>
+    <systems>
+      <system id="48">
+        <name>Interact Family Computer</name>
+      </system>
+    </systems>
+  </company>
+  <company id="102">
+    <name>iQue</name>
+    <systems>
+      <system id="237">
+        <name>iQue Player</name>
+      </system>
+    </systems>
+  </company>
+  <company id="36">
+    <name>Jupiter Cantab</name>
+    <systems>
+      <system id="68">
+        <name>Jupiter Cantab Jupiter Ace</name>
+      </system>
+    </systems>
+  </company>
+  <company id="95">
+    <name>Kaypro</name>
+    <systems>
+      <system id="244">
+        <name>Kaypro II</name>
+      </system>
+    </systems>
+  </company>
+  <company id="37">
+    <name>Keio University</name>
+    <systems>
+      <system id="69">
+        <name>Keio University K-1</name>
+      </system>
+    </systems>
+  </company>
+  <company id="101">
+    <name>Konami</name>
+    <systems>
+      <system id="230">
+        <name>Konami Bemani System 573 Analog</name>
+      </system>
+      <system id="231">
+        <name>Konami Bemani System 573 Digital</name>
+      </system>
+      <system id="232">
+        <name>Konami System 573</name>
+      </system>
+    </systems>
+  </company>
+  <company id="38">
+    <name>Luxor</name>
+    <systems>
+      <system id="333">
+        <name>Luxor ABC 1600</name>
+      </system>
+      <system id="11">
+        <name>Luxor ABC 80</name>
+      </system>
+      <system id="12">
+        <name>Luxor ABC 800</name>
+      </system>
+      <system id="334">
+        <name>Luxor ABC 806</name>
+      </system>
+      <system id="113">
+        <name>Luxor Video Entertainment System</name>
+      </system>
+    </systems>
+  </company>
+  <company id="89">
+    <name>Magnavox</name>
+    <systems>
+      <system id="201">
+        <name>Magnavox Odyssey</name>
+      </system>
+      <system id="213">
+        <name>Magnavox Odyssey2</name>
+      </system>
+    </systems>
+  </company>
+  <company id="39">
+    <name>Matra Hachette</name>
+    <systems>
+      <system id="14">
+        <name>Matra Hachette Alice 32</name>
+      </system>
+      <system id="335">
+        <name>Matra Hachette Alice 90</name>
+      </system>
+    </systems>
+  </company>
+  <company id="40">
+    <name>Matsushita</name>
+    <systems>
+      <system id="67">
+        <name>Matsushita National JR 200</name>
+      </system>
+      <system id="259">
+        <name>Matsushita National JR-100</name>
+      </system>
+    </systems>
+  </company>
+  <company id="41">
+    <name>Mattel</name>
+    <systems>
+      <system id="20">
+        <name>Mattel Aquarius</name>
+      </system>
+      <system id="260">
+        <name>Mattel HyperScan</name>
+      </system>
+      <system id="64">
+        <name>Mattel Intellivision</name>
+      </system>
+    </systems>
+  </company>
+  <company id="124">
+    <name>Megatel</name>
+    <systems>
+      <system id="299">
+        <name>Megatel Quark</name>
+      </system>
+    </systems>
+  </company>
+  <company id="42">
+    <name>Memorex</name>
+    <systems>
+      <system id="172">
+        <name>Memorex Video Information System</name>
+      </system>
+    </systems>
+  </company>
+  <company id="43">
+    <name>Memotech</name>
+    <systems>
+      <system id="98">
+        <name>Memotech MTX</name>
+      </system>
+    </systems>
+  </company>
+  <company id="44">
+    <name>MGT</name>
+    <systems>
+      <system id="142">
+        <name>MGT Sam Coupe</name>
+      </system>
+    </systems>
+  </company>
+  <company id="125">
+    <name>Micro Craft</name>
+    <systems>
+      <system id="300">
+        <name>Micro Craft Dimension 68000</name>
+      </system>
+    </systems>
+  </company>
+  <company id="96">
+    <name>Microdigital</name>
+  </company>
+  <company id="46">
+    <name>Microkey</name>
+    <systems>
+      <system id="137">
+        <name>Microkey Primo</name>
+      </system>
+      <system id="188">
+        <name>Microkey Pro-Primo</name>
+      </system>
+    </systems>
+  </company>
+  <company id="86">
+    <name>Microsoft</name>
+    <systems>
+      <system id="254">
+        <name>Microsoft Xbox</name>
+      </system>
+      <system id="197">
+        <name>Microsoft Xbox 360</name>
+      </system>
+      <system id="280">
+        <name>Microsoft Xbox One</name>
+      </system>
+    </systems>
+  </company>
+  <company id="47">
+    <name>MITS</name>
+    <systems>
+      <system id="15">
+        <name>MITS Altair 8800</name>
+      </system>
+    </systems>
+  </company>
+  <company id="126">
+    <name>Motorola</name>
+    <systems>
+      <system id="301">
+        <name>Motorola EXORciser</name>
+      </system>
+    </systems>
+  </company>
+  <company id="48">
+    <name>MSX</name>
+    <systems>
+      <system id="95">
+        <name>MSX MSX</name>
+      </system>
+      <system id="96">
+        <name>MSX MSX2</name>
+      </system>
+      <system id="97">
+        <name>MSX MSX2+</name>
+      </system>
+      <system id="258">
+        <name>MSX Palcom</name>
+      </system>
+      <system id="165">
+        <name>MSX TurboR</name>
+      </system>
+    </systems>
+  </company>
+  <company id="103">
+    <name>Multi-format</name>
+  </company>
+  <company id="49">
+    <name>Nascom</name>
+    <systems>
+      <system id="61">
+        <name>Nascom I &amp; II</name>
+      </system>
+    </systems>
+  </company>
+  <company id="50">
+    <name>NCR</name>
+    <systems>
+      <system id="41">
+        <name>NCR Decision Mate V</name>
+      </system>
+    </systems>
+  </company>
+  <company id="51">
+    <name>NEC</name>
+    <systems>
+      <system id="336">
+        <name>NEC Advanced Personal Computer</name>
+      </system>
+      <system id="116">
+        <name>NEC PC-6001</name>
+      </system>
+      <system id="117">
+        <name>NEC PC-8001</name>
+      </system>
+      <system id="118">
+        <name>NEC PC-8201</name>
+      </system>
+      <system id="119">
+        <name>NEC PC-8801</name>
+      </system>
+      <system id="120">
+        <name>NEC PC-88VA</name>
+      </system>
+      <system id="121">
+        <name>NEC PC-9801</name>
+      </system>
+      <system id="122">
+        <name>NEC PC-9821</name>
+      </system>
+      <system id="123">
+        <name>NEC PC-Engine &amp; TurboGrafx-16</name>
+      </system>
+      <system id="124">
+        <name>NEC PC-Engine CD &amp; TurboGrafx-16 CD</name>
+      </system>
+      <system id="125">
+        <name>NEC PC-FX</name>
+      </system>
+      <system id="233">
+        <name>NEC PC-FXGA</name>
+      </system>
+      <system id="150">
+        <name>NEC SuperGrafx</name>
+      </system>
+    </systems>
+  </company>
+  <company id="52">
+    <name>Nintendo</name>
+    <systems>
+      <system id="274">
+        <name>Nintendo 3DS</name>
+      </system>
+      <system id="6">
+        <name>Nintendo 64</name>
+      </system>
+      <system id="8">
+        <name>Nintendo 64DD</name>
+      </system>
+      <system id="234">
+        <name>Nintendo DS</name>
+      </system>
+      <system id="46">
+        <name>Nintendo Famicom &amp; Entertainment System</name>
+      </system>
+      <system id="47">
+        <name>Nintendo Famicom Disk System</name>
+      </system>
+      <system id="54">
+        <name>Nintendo Game Boy</name>
+      </system>
+      <system id="223">
+        <name>Nintendo Game Boy Advance</name>
+      </system>
+      <system id="55">
+        <name>Nintendo Game Boy Color</name>
+      </system>
+      <system id="281">
+        <name>Nintendo GameCube</name>
+      </system>
+      <system id="136">
+        <name>Nintendo Pokemon Mini</name>
+      </system>
+      <system id="148">
+        <name>Nintendo Super Famicom &amp; Super Entertainment System</name>
+      </system>
+      <system id="173">
+        <name>Nintendo Virtual Boy</name>
+      </system>
+      <system id="198">
+        <name>Nintendo Wii</name>
+      </system>
+      <system id="264">
+        <name>Nintendo Wii U</name>
+      </system>
+    </systems>
+  </company>
+  <company id="127">
+    <name>NorthStar</name>
+    <systems>
+      <system id="337">
+        <name>NorthStar Advantage</name>
+      </system>
+      <system id="302">
+        <name>NorthStar Horizon</name>
+      </system>
+    </systems>
+  </company>
+  <company id="128">
+    <name>Nuclear Data</name>
+    <systems>
+      <system id="303">
+        <name>Nuclear Data ND4410 &amp; ND4420</name>
+      </system>
+    </systems>
+  </company>
+  <company id="54">
+    <name>OCC</name>
+    <systems>
+      <system id="108">
+        <name>OCC Osborne 1 &amp; Osborne Executive</name>
+      </system>
+    </systems>
+  </company>
+  <company id="53">
+    <name>Online Retrogaming Magazines</name>
+  </company>
+  <company id="108">
+    <name>OpenPandora</name>
+    <systems>
+      <system id="245">
+        <name>OpenPandora Pandora</name>
+      </system>
+    </systems>
+  </company>
+  <company id="142">
+    <name>Otrona</name>
+    <systems>
+      <system id="338">
+        <name>Otrona Attache</name>
+      </system>
+    </systems>
+  </company>
+  <company id="143">
+    <name>Patisonic</name>
+    <systems>
+      <system id="339">
+        <name>Patisonic Aleste 520EX</name>
+      </system>
+    </systems>
+  </company>
+  <company id="55">
+    <name>PEL Varazdin</name>
+    <systems>
+      <system id="106">
+        <name>PEL Varazdin Orao</name>
+      </system>
+    </systems>
+  </company>
+  <company id="56">
+    <name>Philips</name>
+    <systems>
+      <system id="31">
+        <name>Philips CD-i</name>
+      </system>
+      <system id="110">
+        <name>Philips P2000</name>
+      </system>
+      <system id="169">
+        <name>Philips VG 5000</name>
+      </system>
+      <system id="50">
+        <name>Philips Videopac G7000</name>
+      </system>
+      <system id="235">
+        <name>Philips Videopac+</name>
+      </system>
+    </systems>
+  </company>
+  <company id="84">
+    <name>Pioneer</name>
+    <systems>
+      <system id="189">
+        <name>Pioneer LaserActive</name>
+      </system>
+    </systems>
+  </company>
+  <company id="97">
+    <name>Prologica</name>
+  </company>
+  <company id="57">
+    <name>PTC</name>
+    <systems>
+      <system id="153">
+        <name>PTC Sol Terminal Computer SOL-20</name>
+      </system>
+    </systems>
+  </company>
+  <company id="112">
+    <name>Radica</name>
+    <systems>
+      <system id="273">
+        <name>Radica Arcade Legends &amp; Play TV Legends</name>
+      </system>
+    </systems>
+  </company>
+  <company id="58">
+    <name>Radio-86RK</name>
+    <systems>
+      <system id="19">
+        <name>Radio-86RK Apogej BK-01</name>
+      </system>
+      <system id="90">
+        <name>Radio-86RK Mikro-80</name>
+      </system>
+      <system id="91">
+        <name>Radio-86RK Mikrosha</name>
+      </system>
+      <system id="111">
+        <name>Radio-86RK Partner-01.01</name>
+      </system>
+      <system id="140">
+        <name>Radio-86RK Radio-86RK</name>
+      </system>
+      <system id="181">
+        <name>Radio-86RK YuT-88</name>
+      </system>
+    </systems>
+  </company>
+  <company id="59">
+    <name>RCA</name>
+    <systems>
+      <system id="34">
+        <name>RCA Chip-8</name>
+      </system>
+      <system id="146">
+        <name>RCA Studio II</name>
+      </system>
+      <system id="149">
+        <name>RCA Superchip</name>
+      </system>
+    </systems>
+  </company>
+  <company id="60">
+    <name>RM</name>
+    <systems>
+      <system id="105">
+        <name>RM Nimbus PC</name>
+      </system>
+    </systems>
+  </company>
+  <company id="61">
+    <name>Robotron</name>
+    <systems>
+      <system id="71">
+        <name>Robotron HC900, KC85 2, KC85 3 &amp; KC85 4</name>
+      </system>
+      <system id="70">
+        <name>Robotron KC Compact</name>
+      </system>
+      <system id="183">
+        <name>Robotron Z1013</name>
+      </system>
+      <system id="184">
+        <name>Robotron Z9001 &amp; KC85 1</name>
+      </system>
+    </systems>
+  </company>
+  <company id="144">
+    <name>Rockwell</name>
+    <systems>
+      <system id="340">
+        <name>Rockwell AIM65</name>
+      </system>
+    </systems>
+  </company>
+  <company id="88">
+    <name>SABA</name>
+    <systems>
+      <system id="141">
+        <name>SABA Videoplay</name>
+      </system>
+    </systems>
+  </company>
+  <company id="62">
+    <name>Sega</name>
+    <systems>
+      <system id="3">
+        <name>Sega 32X</name>
+      </system>
+      <system id="38">
+        <name>Sega Computer 3000</name>
+      </system>
+      <system id="42">
+        <name>Sega Dreamcast</name>
+      </system>
+      <system id="53">
+        <name>Sega Game 1000</name>
+      </system>
+      <system id="56">
+        <name>Sega Game Gear</name>
+      </system>
+      <system id="84">
+        <name>Sega Mark III &amp; Master System</name>
+      </system>
+      <system id="85">
+        <name>Sega Mega Drive &amp; Genesis</name>
+      </system>
+      <system id="87">
+        <name>Sega Mega-CD &amp; Sega CD</name>
+      </system>
+      <system id="246">
+        <name>Sega NAOMI</name>
+      </system>
+      <system id="263">
+        <name>Sega NAOMI 2</name>
+      </system>
+      <system id="101">
+        <name>Sega NAOMI GD-ROM</name>
+      </system>
+      <system id="207">
+        <name>Sega Pico</name>
+      </system>
+      <system id="143">
+        <name>Sega Saturn</name>
+      </system>
+      <system id="147">
+        <name>Sega Super Control Station</name>
+      </system>
+      <system id="174">
+        <name>Sega Visual Memory System</name>
+      </system>
+      <system id="271">
+        <name>Sega WonderMega</name>
+      </system>
+    </systems>
+  </company>
+  <company id="63">
+    <name>Sharp</name>
+    <systems>
+      <system id="99">
+        <name>Sharp MZ-700</name>
+      </system>
+      <system id="100">
+        <name>Sharp MZ-800 &amp; MZ-1500</name>
+      </system>
+      <system id="178">
+        <name>Sharp X1</name>
+      </system>
+      <system id="179">
+        <name>Sharp X1 Turbo</name>
+      </system>
+      <system id="180">
+        <name>Sharp X68000</name>
+      </system>
+    </systems>
+  </company>
+  <company id="64">
+    <name>Sinclair</name>
+    <systems>
+      <system id="139">
+        <name>Sinclair QL</name>
+      </system>
+      <system id="185">
+        <name>Sinclair ZX Spectrum</name>
+      </system>
+      <system id="186">
+        <name>Sinclair ZX81</name>
+      </system>
+    </systems>
+  </company>
+  <company id="65">
+    <name>SNK</name>
+    <systems>
+      <system id="270">
+        <name>SNK Hyper Neo-Geo 64</name>
+      </system>
+      <system id="236">
+        <name>SNK Neo-Geo AES</name>
+      </system>
+      <system id="102">
+        <name>SNK Neo-Geo CD</name>
+      </system>
+      <system id="103">
+        <name>SNK Neo-Geo Pocket</name>
+      </system>
+      <system id="104">
+        <name>SNK Neo-Geo Pocket Color</name>
+      </system>
+    </systems>
+  </company>
+  <company id="66">
+    <name>Sony</name>
+    <systems>
+      <system id="132">
+        <name>Sony PlayStation</name>
+      </system>
+      <system id="133">
+        <name>Sony PlayStation 2</name>
+      </system>
+      <system id="255">
+        <name>Sony PlayStation 3</name>
+      </system>
+      <system id="265">
+        <name>Sony PlayStation 4</name>
+      </system>
+      <system id="202">
+        <name>Sony PlayStation Portable</name>
+      </system>
+      <system id="135">
+        <name>Sony PocketStation</name>
+      </system>
+    </systems>
+  </company>
+  <company id="67">
+    <name>Sord</name>
+    <systems>
+      <system id="78">
+        <name>Sord M5</name>
+      </system>
+    </systems>
+  </company>
+  <company id="68">
+    <name>Spectravideo</name>
+    <systems>
+      <system id="152">
+        <name>Spectravideo SVI-318 &amp; SVI-328</name>
+      </system>
+    </systems>
+  </company>
+  <company id="69">
+    <name>Tandy Radio Shack</name>
+    <systems>
+      <system id="191">
+        <name>Tandy Radio Shack TRS-80 Color Computer</name>
+      </system>
+      <system id="192">
+        <name>Tandy Radio Shack TRS-80 MC-10</name>
+      </system>
+      <system id="190">
+        <name>Tandy Radio Shack TRS-80 Model 100</name>
+      </system>
+      <system id="193">
+        <name>Tandy Radio Shack TRS-80 Model 4</name>
+      </system>
+      <system id="194">
+        <name>Tandy Radio Shack TRS-80 Model I</name>
+      </system>
+      <system id="195">
+        <name>Tandy Radio Shack TRS-80 Model III</name>
+      </system>
+    </systems>
+  </company>
+  <company id="70">
+    <name>Tangerine</name>
+    <systems>
+      <system id="89">
+        <name>Tangerine Microtan 65</name>
+      </system>
+      <system id="107">
+        <name>Tangerine Oric-1 &amp; Oric Atmos</name>
+      </system>
+    </systems>
+  </company>
+  <company id="71">
+    <name>Tatung</name>
+    <systems>
+      <system id="44">
+        <name>Tatung Einstein TC-01</name>
+      </system>
+    </systems>
+  </company>
+  <company id="104">
+    <name>Technosys</name>
+    <systems>
+      <system id="238">
+        <name>Technosys Aamber Pegasus</name>
+      </system>
+    </systems>
+  </company>
+  <company id="129">
+    <name>Tektronix</name>
+    <systems>
+      <system id="304">
+        <name>Tektronix 405x</name>
+      </system>
+      <system id="305">
+        <name>Tektronix 4100 Series</name>
+      </system>
+      <system id="306">
+        <name>Tektronix 4400 Series</name>
+      </system>
+    </systems>
+  </company>
+  <company id="145">
+    <name>Telcon</name>
+    <systems>
+      <system id="341">
+        <name>Telcon Zorba</name>
+      </system>
+    </systems>
+  </company>
+  <company id="130">
+    <name>TeleVideo Systems</name>
+    <systems>
+      <system id="307">
+        <name>TeleVideo Systems TS-802 &amp; TS-802H</name>
+      </system>
+      <system id="308">
+        <name>TeleVideo Systems TS-803, TS-803H &amp; TPC-1</name>
+      </system>
+      <system id="309">
+        <name>TeleVideo Systems TS-806</name>
+      </system>
+    </systems>
+  </company>
+  <company id="131">
+    <name>Terak</name>
+    <systems>
+      <system id="310">
+        <name>Terak 8510A &amp; 8600</name>
+      </system>
+    </systems>
+  </company>
+  <company id="72">
+    <name>Tesla</name>
+    <systems>
+      <system id="134">
+        <name>Tesla PMD 85</name>
+      </system>
+    </systems>
+  </company>
+  <company id="73">
+    <name>Texas Instruments</name>
+    <systems>
+      <system id="216">
+        <name>Texas Instruments CC-40</name>
+      </system>
+      <system id="154">
+        <name>Texas Instruments TI-73</name>
+      </system>
+      <system id="155">
+        <name>Texas Instruments TI-80</name>
+      </system>
+      <system id="224">
+        <name>Texas Instruments TI-81</name>
+      </system>
+      <system id="156">
+        <name>Texas Instruments TI-82</name>
+      </system>
+      <system id="157">
+        <name>Texas Instruments TI-83</name>
+      </system>
+      <system id="158">
+        <name>Texas Instruments TI-85</name>
+      </system>
+      <system id="159">
+        <name>Texas Instruments TI-86</name>
+      </system>
+      <system id="160">
+        <name>Texas Instruments TI-89</name>
+      </system>
+      <system id="161">
+        <name>Texas Instruments TI-92</name>
+      </system>
+      <system id="162">
+        <name>Texas Instruments TI-99 4A</name>
+      </system>
+    </systems>
+  </company>
+  <company id="74">
+    <name>Thomson</name>
+    <systems>
+      <system id="92">
+        <name>Thomson MO5</name>
+      </system>
+      <system id="93">
+        <name>Thomson MO6</name>
+      </system>
+      <system id="163">
+        <name>Thomson TO7</name>
+      </system>
+      <system id="164">
+        <name>Thomson TO8</name>
+      </system>
+      <system id="311">
+        <name>Thomson TO8, TO8D, TO9, TO9+</name>
+      </system>
+      <system id="272">
+        <name>Thomson TO9+</name>
+      </system>
+    </systems>
+  </company>
+  <company id="75">
+    <name>Tiger</name>
+    <systems>
+      <system id="57">
+        <name>Tiger Game.com</name>
+      </system>
+    </systems>
+  </company>
+  <company id="105">
+    <name>Tiki Data</name>
+    <systems>
+      <system id="239">
+        <name>Tiki Data Kontiki-100 &amp; Tiki-100</name>
+      </system>
+    </systems>
+  </company>
+  <company id="76">
+    <name>Tomy</name>
+    <systems>
+      <system id="277">
+        <name>Tomy KISS-Site</name>
+      </system>
+      <system id="166">
+        <name>Tomy Tutor &amp; Pyuuta</name>
+      </system>
+    </systems>
+  </company>
+  <company id="77">
+    <name>Tsukuda Original</name>
+    <systems>
+      <system id="109">
+        <name>Tsukuda Original Othello Multivision</name>
+      </system>
+    </systems>
+  </company>
+  <company id="132">
+    <name>UNIVAC</name>
+    <systems>
+      <system id="312">
+        <name>UNIVAC Series 90</name>
+      </system>
+    </systems>
+  </company>
+  <company id="9">
+    <name>University of Cambridge</name>
+    <systems>
+      <system id="43">
+        <name>University of Cambridge EDSAC</name>
+      </system>
+    </systems>
+  </company>
+  <company id="78">
+    <name>University of Tokyo</name>
+    <systems>
+      <system id="115">
+        <name>University of Tokyo PC-1</name>
+      </system>
+    </systems>
+  </company>
+  <company id="87">
+    <name>Various</name>
+  </company>
+  <company id="146">
+    <name>VEB Mikroelektronik Erfurt</name>
+    <systems>
+      <system id="342">
+        <name>VEB Mikroelektronik Erfurt Chess-Master Diamond</name>
+      </system>
+    </systems>
+  </company>
+  <company id="79">
+    <name>Videoton</name>
+    <systems>
+      <system id="167">
+        <name>Videoton TV-Computer</name>
+      </system>
+    </systems>
+  </company>
+  <company id="93">
+    <name>Visual Technology</name>
+    <systems>
+      <system id="215">
+        <name>Visual Technology Visual 1050</name>
+      </system>
+    </systems>
+  </company>
+  <company id="114">
+    <name>VM Labs</name>
+    <systems>
+      <system id="276">
+        <name>VM Labs Nuon</name>
+      </system>
+    </systems>
+  </company>
+  <company id="80">
+    <name>VTech</name>
+    <systems>
+      <system id="72">
+        <name>VTech Laser 200</name>
+      </system>
+      <system id="73">
+        <name>VTech Laser 2001 &amp; CreatiVision</name>
+      </system>
+      <system id="74">
+        <name>VTech Laser 310</name>
+      </system>
+      <system id="261">
+        <name>VTech V.Flash Home Edutainment System</name>
+      </system>
+    </systems>
+  </company>
+  <company id="81">
+    <name>Wang</name>
+    <systems>
+      <system id="175">
+        <name>Wang VS</name>
+      </system>
+    </systems>
+  </company>
+  <company id="82">
+    <name>Watara</name>
+    <systems>
+      <system id="151">
+        <name>Watara Supervision</name>
+      </system>
+    </systems>
+  </company>
+  <company id="133">
+    <name>Xerox</name>
+    <systems>
+      <system id="313">
+        <name>Xerox 1108</name>
+      </system>
+      <system id="314">
+        <name>Xerox 1186</name>
+      </system>
+      <system id="315">
+        <name>Xerox 6085</name>
+      </system>
+      <system id="316">
+        <name>Xerox 820</name>
+      </system>
+      <system id="317">
+        <name>Xerox 820-II</name>
+      </system>
+      <system id="318">
+        <name>Xerox 860</name>
+      </system>
+    </systems>
+  </company>
+  <company id="147">
+    <name>Yamaha</name>
+    <systems>
+      <system id="343">
+        <name>Yamaha Copera</name>
+      </system>
+    </systems>
+  </company>
+  <company id="113">
+    <name>ZAPiT Games</name>
+    <systems>
+      <system id="278">
+        <name>ZAPiT Games Game Wave Family Entertainment System</name>
+      </system>
+    </systems>
+  </company>
+  <company id="134">
+    <name>Zilog</name>
+    <systems>
+      <system id="319">
+        <name>Zilog MCZ-2</name>
+      </system>
+    </systems>
+  </company>
+</companies>
