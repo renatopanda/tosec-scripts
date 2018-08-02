@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="systems.xsl"?>
-<companies version="20180331152022">
+<companies version="20180725194557">
   <company id="1">
     <name>3DO</name>
     <systems>
@@ -23,6 +23,9 @@
       </system>
       <system id="45">
         <name>Acorn Electron</name>
+      </system>
+      <system id="344">
+        <name>Acorn FileStore E01</name>
       </system>
       <system id="248">
         <name>Acorn System 1</name>
@@ -59,6 +62,14 @@
     <systems>
       <system id="325">
         <name>AEG Olympia Olytext 20</name>
+      </system>
+    </systems>
+  </company>
+  <company id="148">
+    <name>AlphaSmart</name>
+    <systems>
+      <system id="345">
+        <name>AlphaSmart Pro</name>
       </system>
     </systems>
   </company>
@@ -238,6 +249,14 @@
       </system>
     </systems>
   </company>
+  <company id="149">
+    <name>Bit Corporation</name>
+    <systems>
+      <system id="346">
+        <name>Bit Corporation Gamate</name>
+      </system>
+    </systems>
+  </company>
   <company id="8">
     <name>Bondwell</name>
     <systems>
@@ -402,6 +421,12 @@
   <company id="16">
     <name>DEC</name>
     <systems>
+      <system id="347">
+        <name>DEC AlphaServer</name>
+      </system>
+      <system id="348">
+        <name>DEC DECPx AXP 150</name>
+      </system>
       <system id="127">
         <name>DEC PDP-1</name>
       </system>
@@ -425,6 +450,12 @@
       </system>
       <system id="218">
         <name>DEC PDP-9</name>
+      </system>
+      <system id="349">
+        <name>DEC Rainbow 100</name>
+      </system>
+      <system id="350">
+        <name>DEC VT-180</name>
       </system>
     </systems>
   </company>
@@ -569,11 +600,27 @@
       </system>
     </systems>
   </company>
+  <company id="150">
+    <name>Fairlight</name>
+    <systems>
+      <system id="351">
+        <name>Fairlight CMI Series III</name>
+      </system>
+    </systems>
+  </company>
   <company id="122">
     <name>Ferguson</name>
     <systems>
       <system id="291">
         <name>Ferguson Big Board II</name>
+      </system>
+    </systems>
+  </company>
+  <company id="151">
+    <name>Fidelity</name>
+    <systems>
+      <system id="352">
+        <name>Fidelity Sensory Chess Challenger</name>
       </system>
     </systems>
   </company>
@@ -673,6 +720,22 @@
       </system>
     </systems>
   </company>
+  <company id="152">
+    <name>Hartung</name>
+    <systems>
+      <system id="353">
+        <name>Hartung Game Master</name>
+      </system>
+    </systems>
+  </company>
+  <company id="153">
+    <name>Hawthorne Technology</name>
+    <systems>
+      <system id="354">
+        <name>Hawthorne Technology TinyGiant 68000 Single Board Computer</name>
+      </system>
+    </systems>
+  </company>
   <company id="31">
     <name>Hewlett-Packard</name>
     <systems>
@@ -687,6 +750,12 @@
       </system>
       <system id="59">
         <name>Hewlett-Packard HP49</name>
+      </system>
+      <system id="355">
+        <name>Hewlett-Packard HP85</name>
+      </system>
+      <system id="356">
+        <name>Hewlett-Packard HP9835A-B</name>
       </system>
     </systems>
   </company>
@@ -731,6 +800,14 @@
     <systems>
       <system id="182">
         <name>Infocom Z-Machine</name>
+      </system>
+    </systems>
+  </company>
+  <company id="154">
+    <name>Intec</name>
+    <systems>
+      <system id="357">
+        <name>Intec Interact</name>
       </system>
     </systems>
   </company>
@@ -785,6 +862,14 @@
       </system>
       <system id="232">
         <name>Konami System 573</name>
+      </system>
+    </systems>
+  </company>
+  <company id="155">
+    <name>LeapFrog</name>
+    <systems>
+      <system id="358">
+        <name>LeapFrog Leapster</name>
       </system>
     </systems>
   </company>
@@ -852,6 +937,12 @@
       </system>
       <system id="64">
         <name>Mattel Intellivision</name>
+      </system>
+      <system id="359">
+        <name>Mattel Intellivision ECS</name>
+      </system>
+      <system id="360">
+        <name>Mattel Juice Box</name>
       </system>
     </systems>
   </company>
@@ -1054,6 +1145,9 @@
       </system>
       <system id="281">
         <name>Nintendo GameCube</name>
+      </system>
+      <system id="361">
+        <name>Nintendo Play-Yan</name>
       </system>
       <system id="136">
         <name>Nintendo Pokemon Mini</name>
@@ -1569,10 +1663,13 @@
     </systems>
   </company>
   <company id="75">
-    <name>Tiger</name>
+    <name>Tiger Electronics</name>
     <systems>
       <system id="57">
-        <name>Tiger Game.com</name>
+        <name>Tiger Electronics Game.com</name>
+      </system>
+      <system id="370">
+        <name>Tiger Electronics K28 Talking Learning Computer</name>
       </system>
     </systems>
   </company>
@@ -1584,6 +1681,17 @@
       </system>
     </systems>
   </company>
+  <company id="157">
+    <name>TimeTop</name>
+    <systems>
+      <system id="363">
+        <name>TimeTop GameKing</name>
+      </system>
+      <system id="364">
+        <name>TimeTop GameKing 3</name>
+      </system>
+    </systems>
+  </company>
   <company id="76">
     <name>Tomy</name>
     <systems>
@@ -1592,6 +1700,14 @@
       </system>
       <system id="166">
         <name>Tomy Tutor &amp; Pyuuta</name>
+      </system>
+    </systems>
+  </company>
+  <company id="156">
+    <name>TRQ</name>
+    <systems>
+      <system id="362">
+        <name>TRQ Video Computer H-21</name>
       </system>
     </systems>
   </company>
@@ -1665,6 +1781,21 @@
   <company id="80">
     <name>VTech</name>
     <systems>
+      <system id="369">
+        <name>VTech Genius</name>
+      </system>
+      <system id="365">
+        <name>VTech Genius Junior Movie</name>
+      </system>
+      <system id="366">
+        <name>VTech Genius Leader 2000</name>
+      </system>
+      <system id="367">
+        <name>VTech Genius Leader 6000SL</name>
+      </system>
+      <system id="368">
+        <name>VTech Genius Leader Color</name>
+      </system>
       <system id="72">
         <name>VTech Laser 200</name>
       </system>

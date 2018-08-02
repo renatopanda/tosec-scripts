@@ -1,3 +1,5 @@
+require "fileutils"
+#require 'byebug'
 # usage example datcheck.rb newpack/TOSEC/
 if ARGV.length == 1
 	dats_folder = ARGV[0]
@@ -7,7 +9,6 @@ else
 	exit 1
 end
 
-require "fileutils"
 dir = FileUtils.makedirs "outdated"
 
 ARGV.each do|a|
@@ -29,7 +30,9 @@ end
 datfiles = Dir["#{folder}*.dat"]
 
 duplicated = 0
-problems = 0 
+split = 0 
+
+puts "-------------------------"
 
 datfiles.each do | dat |
 	#puts "Datfile: #{dat}"
@@ -39,13 +42,13 @@ datfiles.each do | dat |
 	found = Dir["#{folder}#{escape_glob(partname)}*.dat"]
 	if found.length > 1
 		duplicated = duplicated + 1
-		puts "-------------------------"
 		puts "Found unremoved updates:"
 		found.each {|f| puts File.basename f}
 		found_sorted = found.sort.reverse!
 		found_sorted.delete_at(0)
+		#byebug
 		FileUtils.mv found_sorted, dir
-		puts "Moved files:"
+		puts "Moved datfiles:"
 		found_sorted.each { |f| puts f}
 		puts "-------------------------"
 	end
@@ -57,11 +60,18 @@ datfiles.each do | dat |
 	#puts "#{folder}#{escape_glob(partname)}-*.dat"
 	#puts found
 	if (found.length >= 1)
-		problems = problems + 1
-		puts "Possible problem with a category placed inside a terminal category"
-		found.each {|f| puts File.basename f}
+		split = split + 1
+		puts "Found datfiles (child) whose sets will be placed inside another datafile (father) folder:"
+		puts "father: #{filename}"
+		found.each {|f| puts "child: #{File.basename f}"}
+		#byebug
+		FileUtils.mv dat, dir.first # mv needs to receive either 2 strings or 2 arrays
+		puts "Moved datfile:"
+		puts dat
+		puts "-------------------------"
 	end
 end
-
-puts "Moved #{duplicated} datfiles."
-puts "Possible problems: #{problems}."
+puts "-------------------------"
+puts "Moved #{duplicated+split} outdated datfiles, of these:"
+puts "\t* due to direct updates: #{duplicated}"
+puts "\t* due to category reorganizations: #{split}"
