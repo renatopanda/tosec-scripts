@@ -12,7 +12,7 @@ end
 
 #load companies
 companies = {}
-xml_file = File.read("TOSEC Systems XML.xml")
+xml_file = File.read("tosec-scripts/TOSEC Systems XML.xml")
 doc = Nokogiri::XML.parse(xml_file)
 doc.xpath("/companies/company").each do |company|
 	companies[company.xpath("name").text] = []

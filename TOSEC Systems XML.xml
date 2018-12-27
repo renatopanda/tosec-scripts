@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="systems.xsl"?>
-<companies version="20180725194557">
+<companies version="20181226183927">
   <company id="1">
     <name>3DO</name>
     <systems>
@@ -1350,6 +1350,14 @@
     <systems>
       <system id="141">
         <name>SABA Videoplay</name>
+      </system>
+    </systems>
+  </company>
+  <company id="158">
+    <name>Sanyo</name>
+    <systems>
+      <system id="371">
+        <name>Sanyo MBC-550 &amp; 555</name>
       </system>
     </systems>
   </company>

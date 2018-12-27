@@ -4,9 +4,9 @@ This draft briefly describes the TOSEC release process. It describes the steps n
 ## Procedure:
  1. unzip the last datpack to *newpack* folder
  2. get the new (wip) datfiles from the FTP to *wip* folder
-	 - for instance, using the *wipftpdats.rb* script
+	 - for instance, using the *wipftpscan.rb* script
 	 - don't forget other relevant files (e.g. cue, txt)
- 3. error check the new datfiles for structural errors using *datstructcheck.rb*
+ 3. error check the new datfiles for structural errors using *datstructchecker.rb*
 	- apply fixes to dats as needed to correct the errors
 4. copy the new dats from *wip* to the *newpack* folder
 	- place the new dats in their correct location (as in *TOSEC*, *TOSEC-ISO* or *TOSEC-PIX* folders)
@@ -37,7 +37,7 @@ This draft briefly describes the TOSEC release process. It describes the steps n
 	- test the new scripts and move them to *newpack/Scripts*
 9. generate the list of changes for each collection using *diffgenerator.rb*
 	- e.g.  `ruby tosec-scripts/diffgenerator.rb newpack/TOSEC/ oldpack/TOSEC/ > main-diff.log`
-	- a copy of the last release pack should be available (unzipped) in *oldpack*
+	- a copy of the last release pack should be available (unzipped) in *oldpack* folder
 10. update *readme.txt*, including the list of changes
 11. create the new zip and release it
 12. statistics can be extracted with *tosecstatistics.rb*
