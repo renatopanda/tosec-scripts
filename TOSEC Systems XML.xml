@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="systems.xsl"?>
-<companies version="20181226183927">
+<companies version="20190904203138">
   <company id="1">
     <name>3DO</name>
     <systems>
@@ -1295,6 +1295,14 @@
       </system>
       <system id="181">
         <name>Radio-86RK YuT-88</name>
+      </system>
+    </systems>
+  </company>
+  <company id="159">
+    <name>Raytheon</name>
+    <systems>
+      <system id="372">
+        <name>Raytheon 704</name>
       </system>
     </systems>
   </company>

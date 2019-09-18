@@ -14,7 +14,7 @@ end
 
 dir = FileUtils.makedirs "needsfixing"
 
-ARGV.each do|a|
+ARGV.each do |a|
   puts "Argument: #{a}"
 end
 
@@ -30,6 +30,8 @@ def escape_glob(s)
 end
 
 datfiles = Dir["#{folder}*.dat"]
+
+puts "Found #{datfiles.size} datfiles in #{folder}..."
 
 tosec_categories = ["TOSEC", "TOSEC-ISO", "TOSEC-PIX"]
 
