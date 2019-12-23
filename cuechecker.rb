@@ -49,6 +49,9 @@ datfiles.each do | file_path |
 	#puts dat_name
 
 	dat_cues[dat_name] = {}
+	if systems[system_name].nil?
+		puts "System missing from Systems XML list: #{dat_name}"
+	end
 	dat_cues[dat_name]["path"] = [ systems[system_name]["company"], systems[system_name]["system"], dat_name.split(" (TOSEC-v").first.split(" - ")[1..-1] ].join("/")
 	dat_cues[dat_name]["cues"] = []
 	cue_paths << dat_cues[dat_name]["path"]

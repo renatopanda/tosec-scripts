@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="systems.xsl"?>
-<companies version="20190904203138">
+<companies version="20191222235339">
   <company id="1">
     <name>3DO</name>
     <systems>
@@ -1375,6 +1375,12 @@
       <system id="3">
         <name>Sega 32X</name>
       </system>
+      <system id="374">
+        <name>Sega Advanced Pico Beena</name>
+      </system>
+      <system id="373">
+        <name>Sega Chihiro</name>
+      </system>
       <system id="38">
         <name>Sega Computer 3000</name>
       </system>
@@ -1716,6 +1722,14 @@
       </system>
       <system id="166">
         <name>Tomy Tutor &amp; Pyuuta</name>
+      </system>
+    </systems>
+  </company>
+  <company id="160">
+    <name>Toshiba</name>
+    <systems>
+      <system id="375">
+        <name>Toshiba Pasopia</name>
       </system>
     </systems>
   </company>
