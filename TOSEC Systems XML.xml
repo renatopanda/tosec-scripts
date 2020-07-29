@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="systems.xsl"?>
-<companies version="20191222235339">
+<companies version="20200727194046">
   <company id="1">
     <name>3DO</name>
     <systems>
@@ -1831,6 +1831,9 @@
       </system>
       <system id="73">
         <name>VTech Laser 2001 &amp; CreatiVision</name>
+      </system>
+      <system id="376">
+        <name>Vtech Laser 3000 &amp; Dick Smith CAT</name>
       </system>
       <system id="74">
         <name>VTech Laser 310</name>
