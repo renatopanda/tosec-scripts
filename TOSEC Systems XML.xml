@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="systems.xsl"?>
-<companies version="20200727194046">
+<companies version="20201030000747">
   <company id="1">
     <name>3DO</name>
     <systems>
@@ -232,6 +232,9 @@
   <company id="7">
     <name>Bandai</name>
     <systems>
+      <system id="377">
+        <name>Bandai Design Master Denshi Mangajuku</name>
+      </system>
       <system id="257">
         <name>Bandai Pippin @World &amp; Pippin Atmark</name>
       </system>
@@ -500,6 +503,14 @@
       </system>
     </systems>
   </company>
+  <company id="161">
+    <name>Electronics Australia</name>
+    <systems>
+      <system id="378">
+        <name>Electronics Australia EDUC-8</name>
+      </system>
+    </systems>
+  </company>
   <company id="19">
     <name>Elektronika</name>
     <systems>
@@ -556,6 +567,14 @@
     <systems>
       <system id="240">
         <name>Epson PX-8, HC-88 &amp; Geneva</name>
+      </system>
+    </systems>
+  </company>
+  <company id="162">
+    <name>Ericsson</name>
+    <systems>
+      <system id="379">
+        <name>Ericsson Alfaskop System 41</name>
       </system>
     </systems>
   </company>
@@ -756,6 +775,14 @@
       </system>
       <system id="356">
         <name>Hewlett-Packard HP9835A-B</name>
+      </system>
+    </systems>
+  </company>
+  <company id="163">
+    <name>Hitachi</name>
+    <systems>
+      <system id="380">
+        <name>Hitachi S1</name>
       </system>
     </systems>
   </company>
@@ -1502,6 +1529,9 @@
       </system>
       <system id="135">
         <name>Sony PocketStation</name>
+      </system>
+      <system id="381">
+        <name>Sony SMC-777</name>
       </system>
     </systems>
   </company>
