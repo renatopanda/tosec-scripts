@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="systems.xsl"?>
-<companies version="20201030000747">
+<companies version="20210213214659">
   <company id="1">
     <name>3DO</name>
     <systems>
@@ -125,6 +125,20 @@
       </system>
       <system id="225">
         <name>Amstrad PCW</name>
+      </system>
+    </systems>
+  </company>
+  <company id="164">
+    <name>Analogue</name>
+    <systems>
+      <system id="382">
+        <name>Analogue Mega Sg</name>
+      </system>
+      <system id="383">
+        <name>Analogue Nt Mini Noir</name>
+      </system>
+      <system id="384">
+        <name>Analogue Super Nt</name>
       </system>
     </systems>
   </company>
