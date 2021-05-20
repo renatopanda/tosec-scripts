@@ -2,12 +2,15 @@ GEM
   remote: https://rubygems.org/
   specs:
     filesize (0.2.0)
-    nokogiri (1.11.1-x64-mingw32)
+    nokogiri (1.11.4-x64-mingw32)
+      racc (~> 1.4)
+    nokogiri (1.11.4-x86_64-linux)
       racc (~> 1.4)
     racc (1.5.2)
 
 PLATFORMS
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   filesize
