@@ -65,9 +65,10 @@ newdats.each_with_index do | file_path, index |
 	roms = doc.xpath("/datafile/game/rom")
 	roms.each do | cnode |
 		if oldmd5s[cnode['md5']].nil?
-			#puts "New rom: #{cnode['name']}"
-			#get system setfile in the fixdat
-			sysnode = fixdat.xpath("/datafile/game[@name='#{systemname}']").first
+			# puts "New rom: #{cnode['name']}"
+			# get system setfile in the fixdat
+			# fix using flexible quoting https://stackoverflow.com/questions/14822153/escape-single-quote-in-xpath-with-nokogiri
+			sysnode = fixdat.xpath(%{/datafile/game[@name="#{systemname}"]}).first
 			if sysnode.nil? # does not exist yet
 				sysnode = Nokogiri::XML::Node.new "game", fixdat
 				sysnode['name'] = systemname

@@ -1,11 +1,19 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="systems.xsl"?>
-<companies version="20210213214659">
+<companies version="20210804215012">
   <company id="1">
     <name>3DO</name>
     <systems>
       <system id="4">
         <name>3DO 3DO Interactive Multiplayer</name>
+      </system>
+    </systems>
+  </company>
+  <company id="166">
+    <name>8-Bit Productions</name>
+    <systems>
+      <system id="386">
+        <name>8-Bit Productions Commander X16</name>
       </system>
     </systems>
   </company>
@@ -122,6 +130,12 @@
       </system>
       <system id="214">
         <name>Amstrad GX4000</name>
+      </system>
+      <system id="387">
+        <name>Amstrad NC-100</name>
+      </system>
+      <system id="388">
+        <name>Amstrad NC-200</name>
       </system>
       <system id="225">
         <name>Amstrad PCW</name>
@@ -249,6 +263,9 @@
       <system id="377">
         <name>Bandai Design Master Denshi Mangajuku</name>
       </system>
+      <system id="389">
+        <name>Bandai Gundam RX-78</name>
+      </system>
       <system id="257">
         <name>Bandai Pippin @World &amp; Pippin Atmark</name>
       </system>
@@ -258,6 +275,9 @@
       <system id="131">
         <name>Bandai Playdia</name>
       </system>
+      <system id="390">
+        <name>Bandai Super Vision 8000</name>
+      </system>
       <system id="176">
         <name>Bandai WonderSwan</name>
       </system>
@@ -266,9 +286,36 @@
       </system>
     </systems>
   </company>
+  <company id="168">
+    <name>Bernd Huebler</name>
+    <systems>
+      <system id="392">
+        <name>Bernd Huebler Huebler-Grafik-MC</name>
+      </system>
+    </systems>
+  </company>
+  <company id="167">
+    <name>Bernd Huebler &amp; Klaus-Peter Evert</name>
+    <systems>
+      <system id="391">
+        <name>Bernd Huebler &amp; Klaus-Peter Evert Huebler-Evert-MC</name>
+      </system>
+    </systems>
+  </company>
+  <company id="169">
+    <name>BGR Computers</name>
+    <systems>
+      <system id="393">
+        <name>BGR Computers Excalibur 64</name>
+      </system>
+    </systems>
+  </company>
   <company id="149">
     <name>Bit Corporation</name>
     <systems>
+      <system id="394">
+        <name>Bit Corporation BIT 90</name>
+      </system>
       <system id="346">
         <name>Bit Corporation Gamate</name>
       </system>
@@ -293,6 +340,14 @@
     <systems>
       <system id="285">
         <name>Burroughs B1000 Series</name>
+      </system>
+    </systems>
+  </company>
+  <company id="170">
+    <name>Cambridge Computer</name>
+    <systems>
+      <system id="395">
+        <name>Cambridge Computer Z88</name>
       </system>
     </systems>
   </company>
@@ -326,14 +381,28 @@
       <system id="32">
         <name>Casio CFX-9850</name>
       </system>
+      <system id="396">
+        <name>Casio FP-1000 &amp; FP-1100</name>
+      </system>
       <system id="275">
         <name>Casio Loopy</name>
       </system>
       <system id="112">
         <name>Casio PB-1000</name>
       </system>
+      <system id="397">
+        <name>Casio PV-1000</name>
+      </system>
       <system id="267">
         <name>Casio PV-2000</name>
+      </system>
+    </systems>
+  </company>
+  <company id="171">
+    <name>CCE</name>
+    <systems>
+      <system id="398">
+        <name>CCE MC-1000</name>
       </system>
     </systems>
   </company>
@@ -397,6 +466,14 @@
       </system>
     </systems>
   </company>
+  <company id="172">
+    <name>COMX</name>
+    <systems>
+      <system id="399">
+        <name>COMX COMX-35</name>
+      </system>
+    </systems>
+  </company>
   <company id="119">
     <name>Control Data Corporation</name>
     <systems>
@@ -432,6 +509,14 @@
       </system>
       <system id="203">
         <name>Cybiko Xtreme</name>
+      </system>
+    </systems>
+  </company>
+  <company id="173">
+    <name>Data Applications International</name>
+    <systems>
+      <system id="400">
+        <name>Data Applications International DAI Personal Computer</name>
       </system>
     </systems>
   </company>
@@ -479,6 +564,12 @@
   <company id="99">
     <name>Dick Smith</name>
     <systems>
+      <system id="401">
+        <name>Dick Smith Super-80, Super-80D, Super-80E &amp; Super-80M</name>
+      </system>
+      <system id="402">
+        <name>Dick Smith Super-80R &amp; Super-80V</name>
+      </system>
       <system id="227">
         <name>Dick Smith System 80</name>
       </system>
@@ -579,8 +670,14 @@
   <company id="106">
     <name>Epson</name>
     <systems>
+      <system id="403">
+        <name>Epson PX-4 &amp; HC-40</name>
+      </system>
       <system id="240">
         <name>Epson PX-8, HC-88 &amp; Geneva</name>
+      </system>
+      <system id="404">
+        <name>Epson QX-10</name>
       </system>
     </systems>
   </company>
@@ -704,6 +801,14 @@
       </system>
     </systems>
   </company>
+  <company id="174">
+    <name>Fukutake Publishing</name>
+    <systems>
+      <system id="405">
+        <name>Fukutake Publishing StudyBox</name>
+      </system>
+    </systems>
+  </company>
   <company id="92">
     <name>Funtech</name>
     <systems>
@@ -750,6 +855,22 @@
       </system>
       <system id="294">
         <name>Gould K450 Logic Analyzer</name>
+      </system>
+    </systems>
+  </company>
+  <company id="175">
+    <name>Grundy</name>
+    <systems>
+      <system id="406">
+        <name>Grundy NewBrain</name>
+      </system>
+    </systems>
+  </company>
+  <company id="176">
+    <name>Hanimex</name>
+    <systems>
+      <system id="407">
+        <name>Hanimex Pencil II</name>
       </system>
     </systems>
   </company>
@@ -906,9 +1027,20 @@
       </system>
     </systems>
   </company>
+  <company id="177">
+    <name>Lambda Electronics</name>
+    <systems>
+      <system id="408">
+        <name>Lambda Electronics Lambda 8300</name>
+      </system>
+    </systems>
+  </company>
   <company id="155">
     <name>LeapFrog</name>
     <systems>
+      <system id="409">
+        <name>LeapFrog LeapPad</name>
+      </system>
       <system id="358">
         <name>LeapFrog Leapster</name>
       </system>
@@ -942,6 +1074,14 @@
       </system>
       <system id="213">
         <name>Magnavox Odyssey2</name>
+      </system>
+    </systems>
+  </company>
+  <company id="178">
+    <name>Manfred Kramer</name>
+    <systems>
+      <system id="410">
+        <name>Manfred Kramer Kramer-MC</name>
       </system>
     </systems>
   </company>
@@ -1063,11 +1203,27 @@
       </system>
     </systems>
   </company>
+  <company id="179">
+    <name>Mitsubishi</name>
+    <systems>
+      <system id="411">
+        <name>Mitsubishi Multi 8</name>
+      </system>
+    </systems>
+  </company>
   <company id="126">
     <name>Motorola</name>
     <systems>
       <system id="301">
         <name>Motorola EXORciser</name>
+      </system>
+    </systems>
+  </company>
+  <company id="180">
+    <name>Mr. Isizu</name>
+    <systems>
+      <system id="412">
+        <name>Mr. Isizu Z80 TV Game System</name>
       </system>
     </systems>
   </company>
@@ -1093,6 +1249,14 @@
   </company>
   <company id="103">
     <name>Multi-format</name>
+  </company>
+  <company id="165">
+    <name>Namco-Sega-Nintendo</name>
+    <systems>
+      <system id="385">
+        <name>Namco-Sega-Nintendo Triforce</name>
+      </system>
+    </systems>
   </company>
   <company id="49">
     <name>Nascom</name>
@@ -1151,6 +1315,14 @@
       </system>
       <system id="150">
         <name>NEC SuperGrafx</name>
+      </system>
+    </systems>
+  </company>
+  <company id="181">
+    <name>Nichibutsu</name>
+    <systems>
+      <system id="413">
+        <name>Nichibutsu My Vision</name>
       </system>
     </systems>
   </company>
@@ -1234,6 +1406,30 @@
       </system>
     </systems>
   </company>
+  <company id="182">
+    <name>Oh! MZ</name>
+    <systems>
+      <system id="414">
+        <name>Oh! MZ S-OS</name>
+      </system>
+    </systems>
+  </company>
+  <company id="183">
+    <name>Ohio Scientific</name>
+    <systems>
+      <system id="415">
+        <name>Ohio Scientific Challenger 1P</name>
+      </system>
+    </systems>
+  </company>
+  <company id="184">
+    <name>Olivetti</name>
+    <systems>
+      <system id="416">
+        <name>Olivetti M20</name>
+      </system>
+    </systems>
+  </company>
   <company id="53">
     <name>Online Retrogaming Magazines</name>
   </company>
@@ -1266,6 +1462,14 @@
     <systems>
       <system id="106">
         <name>PEL Varazdin Orao</name>
+      </system>
+    </systems>
+  </company>
+  <company id="185">
+    <name>Peters Plus</name>
+    <systems>
+      <system id="417">
+        <name>Peters Plus Sprinter</name>
       </system>
     </systems>
   </company>
@@ -1353,11 +1557,30 @@
       <system id="34">
         <name>RCA Chip-8</name>
       </system>
+      <system id="418">
+        <name>RCA Microboard Computer Development System</name>
+      </system>
       <system id="146">
         <name>RCA Studio II</name>
       </system>
       <system id="149">
         <name>RCA Superchip</name>
+      </system>
+    </systems>
+  </company>
+  <company id="186">
+    <name>Regnecentralen</name>
+    <systems>
+      <system id="419">
+        <name>Regnecentralen RC 700</name>
+      </system>
+    </systems>
+  </company>
+  <company id="187">
+    <name>Retroleum</name>
+    <systems>
+      <system id="420">
+        <name>Retroleum V6Z80P+</name>
       </system>
     </systems>
   </company>
@@ -1372,6 +1595,9 @@
   <company id="61">
     <name>Robotron</name>
     <systems>
+      <system id="421">
+        <name>Robotron BIC A5105</name>
+      </system>
       <system id="71">
         <name>Robotron HC900, KC85 2, KC85 3 &amp; KC85 4</name>
       </system>
@@ -1399,6 +1625,14 @@
     <systems>
       <system id="141">
         <name>SABA Videoplay</name>
+      </system>
+    </systems>
+  </company>
+  <company id="188">
+    <name>Samsung</name>
+    <systems>
+      <system id="422">
+        <name>Samsung SPC-1000</name>
       </system>
     </systems>
   </company>
@@ -1472,11 +1706,20 @@
   <company id="63">
     <name>Sharp</name>
     <systems>
+      <system id="423">
+        <name>Sharp MZ-2500</name>
+      </system>
       <system id="99">
         <name>Sharp MZ-700</name>
       </system>
       <system id="100">
         <name>Sharp MZ-800 &amp; MZ-1500</name>
+      </system>
+      <system id="424">
+        <name>Sharp PC-G850, PC-G815 &amp; E200</name>
+      </system>
+      <system id="425">
+        <name>Sharp Wizard OZ-700 Series</name>
       </system>
       <system id="178">
         <name>Sharp X1</name>
@@ -1498,8 +1741,19 @@
       <system id="185">
         <name>Sinclair ZX Spectrum</name>
       </system>
+      <system id="426">
+        <name>Sinclair ZX80</name>
+      </system>
       <system id="186">
         <name>Sinclair ZX81</name>
+      </system>
+    </systems>
+  </company>
+  <company id="189">
+    <name>SME Systems</name>
+    <systems>
+      <system id="427">
+        <name>SME Systems Aussie Byte II</name>
       </system>
     </systems>
   </company>
@@ -1594,6 +1848,9 @@
       <system id="89">
         <name>Tangerine Microtan 65</name>
       </system>
+      <system id="428">
+        <name>Tangerine Oric Telestrat</name>
+      </system>
       <system id="107">
         <name>Tangerine Oric-1 &amp; Oric Atmos</name>
       </system>
@@ -1651,6 +1908,14 @@
       </system>
     </systems>
   </company>
+  <company id="190">
+    <name>Telmac</name>
+    <systems>
+      <system id="429">
+        <name>Telmac TMC-600</name>
+      </system>
+    </systems>
+  </company>
   <company id="131">
     <name>Terak</name>
     <systems>
@@ -1662,6 +1927,9 @@
   <company id="72">
     <name>Tesla</name>
     <systems>
+      <system id="430">
+        <name>Tesla Ondra Vili</name>
+      </system>
       <system id="134">
         <name>Tesla PMD 85</name>
       </system>
@@ -1758,6 +2026,14 @@
       </system>
     </systems>
   </company>
+  <company id="192">
+    <name>Timex Sinclair</name>
+    <systems>
+      <system id="432">
+        <name>Timex Sinclair TS-2068</name>
+      </system>
+    </systems>
+  </company>
   <company id="76">
     <name>Tomy</name>
     <systems>
@@ -1774,6 +2050,17 @@
     <systems>
       <system id="375">
         <name>Toshiba Pasopia</name>
+      </system>
+      <system id="433">
+        <name>Toshiba Pasopia 7</name>
+      </system>
+    </systems>
+  </company>
+  <company id="194">
+    <name>Triumph-Adler</name>
+    <systems>
+      <system id="434">
+        <name>Triumph-Adler Alphatronic PC</name>
       </system>
     </systems>
   </company>
@@ -1814,6 +2101,14 @@
     <systems>
       <system id="115">
         <name>University of Tokyo PC-1</name>
+      </system>
+    </systems>
+  </company>
+  <company id="195">
+    <name>USSR</name>
+    <systems>
+      <system id="435">
+        <name>USSR Vector-06C</name>
       </system>
     </systems>
   </company>
@@ -1881,6 +2176,9 @@
       </system>
       <system id="74">
         <name>VTech Laser 310</name>
+      </system>
+      <system id="436">
+        <name>VTech Laser 350, 500, 700 &amp; 750</name>
       </system>
       <system id="261">
         <name>VTech V.Flash Home Edutainment System</name>
