@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="systems.xsl"?>
-<companies version="20210804215012">
+<companies version="20211228230655">
   <company id="1">
     <name>3DO</name>
     <systems>
@@ -286,6 +286,17 @@
       </system>
     </systems>
   </company>
+  <company id="196">
+    <name>Benesse</name>
+    <systems>
+      <system id="437">
+        <name>Benesse Pocket Challenge V2</name>
+      </system>
+      <system id="438">
+        <name>Benesse Pocket Challenge W</name>
+      </system>
+    </systems>
+  </company>
   <company id="168">
     <name>Bernd Huebler</name>
     <systems>
@@ -340,6 +351,9 @@
     <systems>
       <system id="285">
         <name>Burroughs B1000 Series</name>
+      </system>
+      <system id="439">
+        <name>Burroughs B20</name>
       </system>
     </systems>
   </company>
@@ -580,6 +594,14 @@
     <systems>
       <system id="290">
         <name>Didact Esselte 100</name>
+      </system>
+    </systems>
+  </company>
+  <company id="197">
+    <name>Digital Electronics</name>
+    <systems>
+      <system id="440">
+        <name>Digital Electronics DIGIAC 3080</name>
       </system>
     </systems>
   </company>
@@ -938,6 +960,12 @@
       <system id="297">
         <name>IBM 1620</name>
       </system>
+      <system id="441">
+        <name>IBM 3740</name>
+      </system>
+      <system id="442">
+        <name>IBM Displaywriter</name>
+      </system>
       <system id="114">
         <name>IBM PC Compatibles</name>
       </system>
@@ -1124,6 +1152,14 @@
       </system>
       <system id="360">
         <name>Mattel Juice Box</name>
+      </system>
+    </systems>
+  </company>
+  <company id="198">
+    <name>MEGA</name>
+    <systems>
+      <system id="443">
+        <name>MEGA MEGA65</name>
       </system>
     </systems>
   </company>
@@ -1365,6 +1401,9 @@
       <system id="136">
         <name>Nintendo Pokemon Mini</name>
       </system>
+      <system id="444">
+        <name>Nintendo Sufami Turbo</name>
+      </system>
       <system id="148">
         <name>Nintendo Super Famicom &amp; Super Entertainment System</name>
       </system>
@@ -1498,6 +1537,14 @@
     <systems>
       <system id="189">
         <name>Pioneer LaserActive</name>
+      </system>
+    </systems>
+  </company>
+  <company id="199">
+    <name>Pravetz</name>
+    <systems>
+      <system id="445">
+        <name>Pravetz 8D</name>
       </system>
     </systems>
   </company>
@@ -1944,6 +1991,9 @@
       <system id="154">
         <name>Texas Instruments TI-73</name>
       </system>
+      <system id="446">
+        <name>Texas Instruments TI-74</name>
+      </system>
       <system id="155">
         <name>Texas Instruments TI-80</name>
       </system>
@@ -1967,6 +2017,9 @@
       </system>
       <system id="161">
         <name>Texas Instruments TI-92</name>
+      </system>
+      <system id="447">
+        <name>Texas Instruments TI-95</name>
       </system>
       <system id="162">
         <name>Texas Instruments TI-99 4A</name>
@@ -2053,6 +2106,9 @@
       </system>
       <system id="433">
         <name>Toshiba Pasopia 7</name>
+      </system>
+      <system id="448">
+        <name>Toshiba Visicom</name>
       </system>
     </systems>
   </company>
