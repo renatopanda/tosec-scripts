@@ -1,9 +1,15 @@
 require 'nokogiri'
 require 'byebug'
 
+class String
+  def to_path(end_slash=false)
+    "#{'/' if self[0]=='\\'}#{self.split('\\').join('/')}#{'/' if end_slash}" 
+  end 
+end
+
 if ARGV.length == 2
-	dats_folder = ARGV[0]
-	cues_folder = ARGV[1]
+	dats_folder = ARGV[0].to_path(true)
+	cues_folder = ARGV[1].to_path(true)
 else
 	puts "Usage: ruby cuechecker.rb [datsfolder] [cuesbasefolder]"
 	puts "Example: ruby cuechecker.rb newpack/TOSEC-ISO/ newpack/CUEs/"

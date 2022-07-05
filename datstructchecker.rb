@@ -29,6 +29,14 @@ def escape_glob(s)
   s.gsub(/[\\\{\}\[\]\*\?]/) { |x| "\\"+x }
 end
 
+class String
+  def to_path(end_slash=false)
+    "#{'/' if self[0]=='\\'}#{self.split('\\').join('/')}#{'/' if end_slash}" 
+  end 
+end
+
+folder = folder.to_path(true)
+
 datfiles = Dir["#{folder}*.dat"]
 
 puts "Found #{datfiles.size} datfiles in #{folder}..."

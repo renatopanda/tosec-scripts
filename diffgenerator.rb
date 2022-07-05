@@ -1,6 +1,12 @@
+class String
+  def to_path(end_slash=false)
+    "#{'/' if self[0]=='\\'}#{self.split('\\').join('/')}#{'/' if end_slash}" 
+  end 
+end
+
 if ARGV.length == 2
-	newfolder = ARGV[0]
-	oldfolder = ARGV[1]
+	newfolder = ARGV[0].to_path(true)
+	oldfolder = ARGV[1].to_path(true)
 else
 	puts "Usage: ruby diffgenerator.rb [newfolder] [oldfolder]"
 	puts "Example: ruby diffgenerator.rb newpack/TOSEC/ oldpack/TOSEC/"

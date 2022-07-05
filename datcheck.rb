@@ -2,7 +2,7 @@ require "fileutils"
 #require 'byebug'
 # usage example datcheck.rb newpack/TOSEC/
 if ARGV.length == 1
-	dats_folder = ARGV[0]
+	folder = ARGV[0]
 else
 	puts "Usage: ruby datcheck.rb [dats_folder]"
 	puts "Example: ruby datcheck.rb newpack/TOSEC/"
@@ -15,17 +15,17 @@ ARGV.each do|a|
   puts "Argument: #{a}"
 end
 
-if ARGV.length > 0
-	folder = ARGV[0]
-else
-	folder = ""
-end
-
-
 def escape_glob(s)
   s.gsub(/[\\\{\}\[\]\*\?]/) { |x| "\\"+x }
 end
 
+class String
+  def to_path(end_slash=false)
+    "#{'/' if self[0]=='\\'}#{self.split('\\').join('/')}#{'/' if end_slash}" 
+  end 
+end
+
+folder = folder.to_path(true)
 
 datfiles = Dir["#{folder}*.dat"]
 
@@ -47,8 +47,8 @@ datfiles.each do | dat |
 		found_sorted = found.sort.reverse!
 		found_sorted.delete_at(0)
 		#byebug
-		FileUtils.mv found_sorted, dir
-		puts "Moved datfiles:"
+		FileUtils.mv found_sorted, dir.first
+		puts "Moved datfiles (to #{dir.first}):"
 		found_sorted.each { |f| puts f}
 		puts "-------------------------"
 	end
@@ -66,7 +66,7 @@ datfiles.each do | dat |
 		found.each {|f| puts "child: #{File.basename f}"}
 		#byebug
 		FileUtils.mv dat, dir.first # mv needs to receive either 2 strings or 2 arrays
-		puts "Moved datfile:"
+		puts "Moved datfile (to #{dir.first}):"
 		puts dat
 		puts "-------------------------"
 	end

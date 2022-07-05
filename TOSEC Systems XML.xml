@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="systems.xsl"?>
-<companies version="20211228230655">
+<companies version="20220704122155">
   <company id="1">
     <name>3DO</name>
     <systems>
@@ -28,6 +28,9 @@
       </system>
       <system id="23">
         <name>Acorn BBC</name>
+      </system>
+      <system id="449">
+        <name>Acorn BBC Master</name>
       </system>
       <system id="45">
         <name>Acorn Electron</name>
@@ -150,6 +153,9 @@
       </system>
       <system id="383">
         <name>Analogue Nt Mini Noir</name>
+      </system>
+      <system id="450">
+        <name>Analogue Pocket</name>
       </system>
       <system id="384">
         <name>Analogue Super Nt</name>
@@ -622,6 +628,14 @@
       </system>
     </systems>
   </company>
+  <company id="200">
+    <name>Dynabyte</name>
+    <systems>
+      <system id="451">
+        <name>Dynabyte Monarch</name>
+      </system>
+    </systems>
+  </company>
   <company id="18">
     <name>EACA</name>
     <systems>
@@ -938,6 +952,15 @@
   <company id="163">
     <name>Hitachi</name>
     <systems>
+      <system id="452">
+        <name>Hitachi Basic Master Jr.</name>
+      </system>
+      <system id="453">
+        <name>Hitachi Basic Master Jr. Level 2</name>
+      </system>
+      <system id="454">
+        <name>Hitachi Basic Master Jr. Level 3</name>
+      </system>
       <system id="380">
         <name>Hitachi S1</name>
       </system>
@@ -974,6 +997,14 @@
       </system>
       <system id="298">
         <name>IBM System-360</name>
+      </system>
+    </systems>
+  </company>
+  <company id="202">
+    <name>IMLAC Corporation</name>
+    <systems>
+      <system id="461">
+        <name>IMLAC Corporation PDS-1</name>
       </system>
     </systems>
   </company>
@@ -1127,11 +1158,11 @@
   <company id="40">
     <name>Matsushita</name>
     <systems>
-      <system id="67">
-        <name>Matsushita National JR 200</name>
-      </system>
       <system id="259">
-        <name>Matsushita National JR-100</name>
+        <name>Matsushita JR-100</name>
+      </system>
+      <system id="67">
+        <name>Matsushita JR-200</name>
       </system>
     </systems>
   </company>
@@ -1192,6 +1223,14 @@
     <systems>
       <system id="142">
         <name>MGT Sam Coupe</name>
+      </system>
+    </systems>
+  </company>
+  <company id="201">
+    <name>Michael J. Bauer</name>
+    <systems>
+      <system id="455">
+        <name>Michael J. Bauer DREAM-6800</name>
       </system>
     </systems>
   </company>
@@ -1400,6 +1439,9 @@
       </system>
       <system id="136">
         <name>Nintendo Pokemon Mini</name>
+      </system>
+      <system id="456">
+        <name>Nintendo Pokewalker</name>
       </system>
       <system id="444">
         <name>Nintendo Sufami Turbo</name>
@@ -1753,6 +1795,9 @@
   <company id="63">
     <name>Sharp</name>
     <systems>
+      <system id="458">
+        <name>Sharp MZ-2000 &amp; MZ-2200</name>
+      </system>
       <system id="423">
         <name>Sharp MZ-2500</name>
       </system>
@@ -1761,6 +1806,9 @@
       </system>
       <system id="100">
         <name>Sharp MZ-800 &amp; MZ-1500</name>
+      </system>
+      <system id="457">
+        <name>Sharp MZ-80B</name>
       </system>
       <system id="424">
         <name>Sharp PC-G850, PC-G815 &amp; E200</name>
@@ -1810,6 +1858,9 @@
       <system id="270">
         <name>SNK Hyper Neo-Geo 64</name>
       </system>
+      <system id="459">
+        <name>SNK Neo-Geo</name>
+      </system>
       <system id="236">
         <name>SNK Neo-Geo AES</name>
       </system>
@@ -1841,6 +1892,9 @@
       </system>
       <system id="202">
         <name>Sony PlayStation Portable</name>
+      </system>
+      <system id="460">
+        <name>Sony PlayStation Vita</name>
       </system>
       <system id="135">
         <name>Sony PocketStation</name>
