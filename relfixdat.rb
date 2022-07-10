@@ -3,9 +3,15 @@ require 'fileutils'
 require 'date'
 #require 'byebug'
 
+class String
+  def to_path(end_slash=false)
+    "#{'/' if self[0]=='\\'}#{self.split('\\').join('/')}#{'/' if end_slash}" 
+  end 
+end
+
 if ARGV.length == 5
-	newfolder = ARGV[0]
-	oldfolder = ARGV[2]
+	newfolder = ARGV[0].to_path(true)
+	oldfolder = ARGV[2].to_path(true)
 	newdate = ARGV[1]
 	olddate = ARGV[3]
 	branch = ARGV[4]

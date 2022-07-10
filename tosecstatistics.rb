@@ -10,6 +10,14 @@ else
 	exit 1
 end
 
+class String
+  def to_path(end_slash=false)
+    "#{'/' if self[0]=='\\'}#{self.split('\\').join('/')}#{'/' if end_slash}" 
+  end 
+end
+
+dats_folder = dats_folder.to_path(true)
+
 stats = {}
 stats['main'] = {}
 stats['iso'] = {}
