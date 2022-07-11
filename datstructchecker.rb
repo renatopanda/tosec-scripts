@@ -3,12 +3,21 @@ require 'date'
 require "fileutils"
 require 'byebug'
 
+paranoid = 0
+
 # usage example datcheck.rb newpack/TOSEC/
-if ARGV.length == 1
+if ARGV.length >= 1
 	dats_folder = ARGV[0]
+	if ARGV.length == 2
+		paranoid = ARGV[1].to_i
+	end
 else
-	puts "Usage: ruby datstructcheck.rb [dats_folder]"
+	puts "Usage: ruby datstructcheck.rb <dats_folder> [PARANOID]"
 	puts "Example: ruby datstructcheck.rb newpack/TOSEC/"
+	puts "PARANOID mode:"
+	puts "   1 = check set name vs description"
+	puts "   2 = check set name vs rom name (single-rom sets, only for non-empty space sets, avoid mass false reports in dats such as Amiga SPS"
+	puts "   3 = check set name vs rom name (single-rom sets, all)"
 	exit 1
 end
 
@@ -103,14 +112,45 @@ datfiles.each do | file_path |
     	dat_errors_log << "datfile/header/version = " + dat_version
     end
 
-    if (dat_errors_log.size > 1)
+    #byebug
+
+    if (paranoid)
+	    dat_sets = Hash.new
+
+	    roms = doc.xpath("/datafile/game").map do | game_node |
+	    	#puts "#{dat_sets}"
+	    	if dat_sets[game_node['name']].nil?
+					dat_sets[game_node['name']] = 1
+				else
+					dat_errors_log << "Sets with duplicated name: #{game_node['name']}."
+		    end
+
+		    if (game_node['name'] != game_node.xpath("description").text)
+		    	dat_errors_log << "Set name and description don't match:"
+		    	dat_errors_log << "SET : #{game_node['name']}."
+		    	dat_errors_log << "DESC: #{game_node.xpath("description").text}."
+		    end
+
+		    if (paranoid >= 2 && game_node.xpath("rom").size == 1)
+		    	rom_name = game_node.xpath("rom").first['name'].rpartition('.').first
+		    	if (paranoid == 3 || rom_name.match(" "))
+			    	if (game_node['name'] != rom_name)
+			    		dat_errors_log << "[PARANOID] Set and rom name (single rom set) don't match:"
+			    		dat_errors_log << "SET: #{game_node['name']}"
+			    		dat_errors_log << "ROM: #{rom_name}"
+			    		dat_errors_log << "---"
+			    		#byebug	
+			    	end
+			    end
+		    end
+		    #byebug
+		  end
+		end
+
+	  if (dat_errors_log.size > 1)
     	puts dat_errors_log
     	FileUtils.mv file_path, dir.first
     	puts "Moved to " + File.join(dir.first, File.basename(file_path))
     	puts "-----------------"
-
     end
-
-    #byebug
-
 end
