@@ -16,7 +16,9 @@ else
 	puts "Example: ruby datstructcheck.rb newpack/TOSEC/"
 	puts "PARANOID mode:"
 	puts "   1 = check set name vs description"
-	puts "   2 = check set name vs rom name (single-rom sets, only for non-empty space sets, avoid mass false reports in dats such as Amiga SPS"
+	puts "   2 = check set name vs rom name"
+	puts "      - single-rom sets, only for non-empty space sets, avoid mass false reports in dats such as Amiga SPS"
+	puts "      - for /TOSEC-ISO/ folders it checks multi-rom sets but ignores ones with (Track x of y) or non-white space rom names"
 	puts "   3 = check set name vs rom name (single-rom sets, all)"
 	exit 1
 end
@@ -117,7 +119,7 @@ datfiles.each do | file_path |
     if (paranoid)
 	    dat_sets = Hash.new
 
-	    roms = doc.xpath("/datafile/game").map do | game_node |
+	    doc.xpath("/datafile/game").each do | game_node |
 	    	#puts "#{dat_sets}"
 	    	if dat_sets[game_node['name']].nil?
 					dat_sets[game_node['name']] = 1
@@ -142,6 +144,16 @@ datfiles.each do | file_path |
 			    		#byebug	
 			    	end
 			    end
+			  elsif (paranoid >= 2 && folder.end_with?("/TOSEC-ISO/"))
+			  	game_node.xpath("rom").each do | rom |
+			  		rom_name = rom['name'].rpartition('.').first
+			  		if (game_node['name'] != rom_name && rom_name.match(" ") && rom_name.match("\(Track \\d{1,3} of \\d{1,3}\)").nil?)
+			  			dat_errors_log << "[PARANOID] Set and rom name (multi rom set) don't match:"
+			    		dat_errors_log << "SET: #{game_node['name']}"
+			    		dat_errors_log << "ROM: #{rom_name}"
+			    		dat_errors_log << "---"
+			  		end
+			  	end
 		    end
 		    #byebug
 		  end
