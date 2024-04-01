@@ -4,6 +4,8 @@ require "fileutils"
 require 'byebug'
 
 paranoid = 0
+local_dtd = 1
+dtd_path = 'tosec-scripts/datafile.dtd'
 
 # usage example datcheck.rb newpack/TOSEC/
 if ARGV.length >= 1
@@ -27,6 +29,12 @@ dir = FileUtils.makedirs "needsfixing"
 
 ARGV.each do |a|
   puts "Argument: #{a}"
+end
+
+if (local_dtd)
+	puts "DTD validation: local"
+else
+	puts "DTD validation: external"
 end
 
 if ARGV.length > 0
@@ -59,11 +67,19 @@ options = Nokogiri::XML::ParseOptions::DTDLOAD | Nokogiri::XML::ParseOptions::DT
 
 datfiles.each do | file_path |
 
-	#puts "------"
+	# puts "------"
 
-	#puts "Checking structure of #{file_path}:"
+	# puts "Checking structure of #{file_path}:"
 
 	xml_file = File.read(file_path)
+
+	if local_dtd
+		# Load the DTD file
+		dtd_string = "<!DOCTYPE datafile SYSTEM \"#{dtd_path}\">"
+		# puts "Will validate #{file_path} using local DTD: #{dtd_path}."
+		# validation using local DTD validation for security and speed (and connection issues)
+		xml_file = xml_file.gsub('<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "http://www.logiqx.com/Dats/datafile.dtd">', dtd_string)
+	end
 
 	#doc = Nokogiri::XML.parse(xml_file)
 	doc = Nokogiri::XML::Document.parse(xml_file, nil, nil, options)

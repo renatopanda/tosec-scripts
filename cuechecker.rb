@@ -56,6 +56,12 @@ datfiles.each do | file_path |
 	system_name = dat_name.split(" - ").first
 	#puts dat_name
 
+	if dat_name.start_with?("Multi-format -")
+		puts "Multiformat dats (no system) currently unsupported..."
+		puts "Skipping: #{dat_name}"
+		next #skip this iteration
+	end
+
 	dat_cues[dat_name] = {}
 	if systems[system_name].nil?
 		puts "System missing from Systems XML list: #{dat_name}"

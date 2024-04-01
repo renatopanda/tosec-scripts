@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="systems.xsl"?>
-<companies version="20220704122155">
+<companies version="20230621193353">
   <company id="1">
     <name>3DO</name>
     <systems>
@@ -37,6 +37,9 @@
       </system>
       <system id="344">
         <name>Acorn FileStore E01</name>
+      </system>
+      <system id="467">
+        <name>Acorn Risc PC</name>
       </system>
       <system id="248">
         <name>Acorn System 1</name>
@@ -151,6 +154,12 @@
       <system id="382">
         <name>Analogue Mega Sg</name>
       </system>
+      <system id="483">
+        <name>Analogue Nt</name>
+      </system>
+      <system id="484">
+        <name>Analogue Nt Mini</name>
+      </system>
       <system id="383">
         <name>Analogue Nt Mini Noir</name>
       </system>
@@ -215,6 +224,14 @@
     <systems>
       <system id="327">
         <name>Aquaplus P-ECE</name>
+      </system>
+    </systems>
+  </company>
+  <company id="212">
+    <name>Arduboy</name>
+    <systems>
+      <system id="476">
+        <name>Arduboy Arduboy</name>
       </system>
     </systems>
   </company>
@@ -349,6 +366,14 @@
       </system>
       <system id="94">
         <name>Bondwell 2</name>
+      </system>
+    </systems>
+  </company>
+  <company id="213">
+    <name>Brother</name>
+    <systems>
+      <system id="477">
+        <name>Brother WP-230B, 330MDS &amp; 335B</name>
       </system>
     </systems>
   </company>
@@ -790,6 +815,14 @@
       </system>
     </systems>
   </company>
+  <company id="203">
+    <name>Flexible Systems</name>
+    <systems>
+      <system id="462">
+        <name>Flexible Systems Tasman Turtle</name>
+      </system>
+    </systems>
+  </company>
   <company id="109">
     <name>Franklin</name>
     <systems>
@@ -826,6 +859,9 @@
   <company id="28">
     <name>Fujitsu</name>
     <systems>
+      <system id="468">
+        <name>Fujitsu FM R-50</name>
+      </system>
       <system id="49">
         <name>Fujitsu FM Towns</name>
       </system>
@@ -935,6 +971,9 @@
       <system id="296">
         <name>Hewlett-Packard 4951C &amp; 4952A</name>
       </system>
+      <system id="463">
+        <name>Hewlett-Packard HP 64000 Logic Development System</name>
+      </system>
       <system id="58">
         <name>Hewlett-Packard HP48</name>
       </system>
@@ -946,6 +985,9 @@
       </system>
       <system id="356">
         <name>Hewlett-Packard HP9835A-B</name>
+      </system>
+      <system id="478">
+        <name>Hewlett-Packard LaserJet</name>
       </system>
     </systems>
   </company>
@@ -1102,6 +1144,14 @@
       </system>
       <system id="358">
         <name>LeapFrog Leapster</name>
+      </system>
+    </systems>
+  </company>
+  <company id="204">
+    <name>Librascope</name>
+    <systems>
+      <system id="464">
+        <name>Librascope LGP-30</name>
       </system>
     </systems>
   </company>
@@ -1416,6 +1466,9 @@
       <system id="234">
         <name>Nintendo DS</name>
       </system>
+      <system id="465">
+        <name>Nintendo DSi</name>
+      </system>
       <system id="46">
         <name>Nintendo Famicom &amp; Entertainment System</name>
       </system>
@@ -1449,6 +1502,9 @@
       <system id="148">
         <name>Nintendo Super Famicom &amp; Super Entertainment System</name>
       </system>
+      <system id="472">
+        <name>Nintendo Switch</name>
+      </system>
       <system id="173">
         <name>Nintendo Virtual Boy</name>
       </system>
@@ -1457,6 +1513,14 @@
       </system>
       <system id="264">
         <name>Nintendo Wii U</name>
+      </system>
+    </systems>
+  </company>
+  <company id="210">
+    <name>Nokia</name>
+    <systems>
+      <system id="473">
+        <name>Nokia N-Gage</name>
       </system>
     </systems>
   </company>
@@ -1530,6 +1594,14 @@
       </system>
     </systems>
   </company>
+  <company id="205">
+    <name>Panic</name>
+    <systems>
+      <system id="466">
+        <name>Panic Playdate</name>
+      </system>
+    </systems>
+  </company>
   <company id="143">
     <name>Patisonic</name>
     <systems>
@@ -1574,6 +1646,17 @@
       </system>
     </systems>
   </company>
+  <company id="214">
+    <name>Pimoroni</name>
+    <systems>
+      <system id="479">
+        <name>Pimoroni 32blit</name>
+      </system>
+      <system id="480">
+        <name>Pimoroni PicoSystem</name>
+      </system>
+    </systems>
+  </company>
   <company id="84">
     <name>Pioneer</name>
     <systems>
@@ -1592,6 +1675,14 @@
   </company>
   <company id="97">
     <name>Prologica</name>
+  </company>
+  <company id="215">
+    <name>Psion</name>
+    <systems>
+      <system id="481">
+        <name>Psion Series 5</name>
+      </system>
+    </systems>
   </company>
   <company id="57">
     <name>PTC</name>
@@ -1629,6 +1720,14 @@
       </system>
       <system id="181">
         <name>Radio-86RK YuT-88</name>
+      </system>
+    </systems>
+  </company>
+  <company id="211">
+    <name>Raspberry Foundation</name>
+    <systems>
+      <system id="474">
+        <name>Raspberry Foundation Raspberry Pi</name>
       </system>
     </systems>
   </company>
@@ -1709,6 +1808,14 @@
       </system>
     </systems>
   </company>
+  <company id="209">
+    <name>Roland</name>
+    <systems>
+      <system id="469">
+        <name>Roland GS Compatibles</name>
+      </system>
+    </systems>
+  </company>
   <company id="88">
     <name>SABA</name>
     <systems>
@@ -1730,6 +1837,9 @@
     <systems>
       <system id="371">
         <name>Sanyo MBC-550 &amp; 555</name>
+      </system>
+      <system id="470">
+        <name>Sanyo PHC-25</name>
       </system>
     </systems>
   </company>
@@ -1995,6 +2105,14 @@
       </system>
     </systems>
   </company>
+  <company id="207">
+    <name>TeleNova</name>
+    <systems>
+      <system id="471">
+        <name>TeleNova Compis</name>
+      </system>
+    </systems>
+  </company>
   <company id="130">
     <name>TeleVideo Systems</name>
     <systems>
@@ -2041,6 +2159,9 @@
     <systems>
       <system id="216">
         <name>Texas Instruments CC-40</name>
+      </system>
+      <system id="475">
+        <name>Texas Instruments Speak &amp; Spell</name>
       </system>
       <system id="154">
         <name>Texas Instruments TI-73</name>
@@ -2233,6 +2354,14 @@
       </system>
     </systems>
   </company>
+  <company id="216">
+    <name>Victor Technologies</name>
+    <systems>
+      <system id="482">
+        <name>Victor Technologies Victor 9000 &amp; Sirius 1</name>
+      </system>
+    </systems>
+  </company>
   <company id="79">
     <name>Videoton</name>
     <systems>
@@ -2292,6 +2421,12 @@
       </system>
       <system id="261">
         <name>VTech V.Flash Home Edutainment System</name>
+      </system>
+      <system id="485">
+        <name>VTech V.Smile Baby</name>
+      </system>
+      <system id="486">
+        <name>VTech V.Smile Motion</name>
       </system>
     </systems>
   </company>
